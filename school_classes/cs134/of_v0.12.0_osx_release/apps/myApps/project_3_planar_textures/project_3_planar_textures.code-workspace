@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "${workspaceRoot}/../../../../libs/openFrameworks"
+		},
+		{
+			"path": "${workspaceRoot}/../../../../addons"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.html": "jekyll",
+			"vector": "cpp",
+			"limits": "cpp",
+			"typeinfo": "cpp",
+			"map": "cpp",
+			"set": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"__node_handle": "cpp",
+			"regex": "cpp",
+			"ratio": "cpp",
+			"random": "cpp",
+			"valarray": "cpp",
+			"chrono": "cpp",
+			"ostream": "cpp",
+			"iostream": "cpp",
+			"cstdlib": "cpp",
+			"iosfwd": "cpp",
+			"bitset": "cpp"
+		}
+	}
+}

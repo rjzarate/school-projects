@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=CircleList
+comment0.text=\n\ The\ class\ manages\ a\ list\ of\ circles.\ \n\ \n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-27-2022\n
+comment1.params=
+comment1.target=CircleList()
+comment1.text=\n\ Constructs\ an\ object\ of\ CircleList\ by\ initializing\ the\n\ instance\ variable\ to\ an\ empty\ array\ list\ of\ Circle.\n
+comment2.params=
+comment2.target=int\ count()
+comment2.text=\n\ Gets\ the\ number\ of\ circles\ in\ the\ list.\n\ \n\ @return\ the\ cardinality\ of\ the\ set.\n
+comment3.params=circle
+comment3.target=void\ add(Circle)
+comment3.text=\n\ Adds\ a\ Circle\ object\ at\ the\ end\ of\ the\ list.\n\ \n\ @param\ circle\ \ the\ circle\ added\n
+comment4.params=
+comment4.target=double\ averageArea()
+comment4.text=\n\ Gets\ the\ average\ area\ of\ all\ circles\ in\ the\ list.\n\ Returns\ 0\ if\ the\ list\ is\ empty.\ Use\ the\ ehanced\n\ for\ loop\ to\ calculate\ the\ sum\ of\ areas\ of\ all\n\ circles\ in\ the\ list.\n\ \n\ @return\ the\ area\ of\ the\ circles\ averaged\n
+comment5.params=
+comment5.target=double\ largestArea()
+comment5.text=\n\ Gets\ the\ largest\ area\ among\ all\ circles\ in\ the\ list.\n\ Returns\ 0.0\ if\ the\ list\ is\ empty.\n\ \n\ @return\ the\ largest\ area\n
+comment6.params=index\ newRadius
+comment6.target=void\ updatingRadius(int,\ double)
+comment6.text=\n\ Sets\ the\ radius\ of\ the\ circle\ at\ the\ specified\ index\ to\n\ newRadius\ if\ index\ is\ valid,\ but\ do\ nothing\ otherwise.\n\ \n\ @param\ index\ \ what\ circle\ is\ changed\n\ @param\ newRadius\ \ the\ new\ radius\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Gets\ a\ string\ representation\ for\ the\ list\ including\ all\ \n\ circles\ in\ the\ list\ by\ returning\ the\ string\ from\ the\ \n\ toString()\ method\ of\ the\ list.\n\ \n\ @return\ the\ list\ of\ circles\n
+numComments=8

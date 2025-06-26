@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Greeter
+comment0.text=\n\ A\ class\ whose\ objects\ emit\ personalized\ greetings.\n\n\ @author\ \ Qi\ Yang\n\ @version\ 2022-02-10\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=Greeter()
+comment2.text=\n\ Constructs\ a\ greeter\ that\ greets\ the\ world.\n
+comment3.params=aName
+comment3.target=Greeter(java.lang.String)
+comment3.text=\n\ Constructs\ a\ greeter\ by\ initializing\ the\ instance\n\ variable\ to\ the\ passed\ in\ name.\n\ \n\ @param\ \ aName\ the\ name\ of\ the\ person\ to\ be\ greeted\n
+comment4.params=
+comment4.target=java.lang.String\ sayHello()
+comment4.text=\n\ Makes\ a\ "Hello"\ greeting.\n\ \n\ @return\ the\ greeting\n
+comment5.params=
+comment5.target=java.lang.String\ sayGoodbye()
+comment5.text=\n\ Makes\ a\ "Goodbye"\ greeting.\n\ \n\ @return\ the\ greeting\n
+numComments=6

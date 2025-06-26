@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MyString
+comment0.text=\n\ A\ class\ to\ store\ and\ process\ a\ string\ of\ one\ or\ two\ words.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ MyExamOne\n
+comment1.params=str
+comment1.target=MyString(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyString.\ \n\ The\ parameter\ has\ one\ word\ or\ two\ words\ \n\ separated\ by\ a\ single\ space,\ and\ it\ has\n\ no\ spaces\ at\ either\ end.\n\ \n\ @param\ str\ \ the\ string\n
+comment2.params=
+comment2.target=java.lang.String\ getString()
+comment2.text=\n\ Gets\ the\ stored\ string.\n\n\ @return\ \ the\ string\n
+comment3.params=newStr
+comment3.target=void\ setString(java.lang.String)
+comment3.text=\n\ Sets\ the\ stored\ string\ to\ a\ new\ string.\n\n\ @param\ newStr\ \ the\ new\ string\n
+comment4.params=
+comment4.target=int\ charCount()
+comment4.text=\n\ Gets\ the\ number\ of\ characters\ of\ the\ stored\ string.\n\n\ @return\ the\ string\ length\n
+comment5.params=
+comment5.target=java.lang.String\ camelFormat()
+comment5.text=\n\ Gets\ the\ camel\ format\ for\ the\ stored\ string.\n\ The\ stored\ string\ has\ either\ one\ word\ or\ two\n\ words\ separated\ by\ a\ single\ space\ and\ there\ \n\ are\ no\ spaces\ at\ either\ end.\n\n\ @return\ the\ camel\ format\ for\ the\ stored\ string\n
+numComments=6

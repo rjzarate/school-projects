@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CircleArray
+comment0.text=\n\ A\ Java\ class\ to\ manage\ a\ partial\ array\ of\ Circle.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-01-2022\n
+comment1.params=length
+comment1.target=CircleArray(int)
+comment1.text=\n\ Constructs\ a\ CircleArray\ object\ by\ creating\ an\n\ array\ of\ Circle\ of\ the\ specified\ length\ and\ setting\n\ the\ number\ of\ circles\ in\ the\ array\ to\ zero.\n\ \n\ @param\ length\ the\ length\ of\ the\ array\ to\ manage\n
+comment2.params=index\ circle
+comment2.target=void\ add(int,\ Circle)
+comment2.text=\n\ Inserts\ the\ specified\ circle\ to\ the\ specified\ index\n\ position\ in\ the\ array\ and\ shifts\ the\ element\ currently\ \n\ at\ that\ position\ and\ any\ subsequent\ elements\ (if\ any)\ \n\ to\ the\ right\ (adds\ one\ to\ their\ indices)\ if\ the\ array\ \n\ is\ not\ full\ and\ the\ index\ is\ valid.\n\ The\ method\ does\ nothing\ otherwise.\n\ \n\ @param\ index\ the\ position\ to\ insert\ the\ circle\n\ @param\ circle\ the\ circle\ to\ insert\n
+comment3.params=index
+comment3.target=Circle\ remove(int)
+comment3.text=\n\ Deletes\ and\ returns\ the\ circle\ at\ the\ specified\ index\ \n\ position\ and\ shifts\ all\ subsequent\ elements\ (if\ any)\ to\ \n\ the\ left\ (subtracts\ one\ from\ their\ indices)\ if\ the\ \n\ index\ is\ valid.\ The\ method\ returns\ null\ and\ does\ not\ \ \n\ change\ the\ array\ if\ the\ index\ is\ invalid.\n\ \n\ @param\ \ index\ the\ index\ position\ of\ the\ circle\ to\ delete\ \n\ @return\ the\ circle\ at\ the\ specified\ index\ position\n\ \ \ \ \ \ \ \ \ null\ if\ index\ is\ invalid\n
+comment4.params=limit
+comment4.target=Circle\ lastCircleLargerThanLimit(double)
+comment4.text=\n\ Gets\ the\ last\ circle\ in\ the\ array\ whose\ \n\ area\ is\ larger\ than\ the\ specified\ limit.\n\ The\ method\ returns\ null\ if\ the\ array\n\ does\ not\ have\ such\ circles.\n\ \n\ @param\ limit\ the\ specified\ limit\ value\n\ @return\ the\ last\ circle\ in\ the\ array\ whose\ area\n\ \ \ \ \ \ \ \ \ \ \ \ \ is\ larger\ than\ the\ specified\ limit\n\ \ \ \ \ \ \ \ \ null\ if\ the\ array\ does\ not\ have\ such\ circles\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ representation\ including\ the\ length\ of\ the\n\ array,\ the\ number\ of\ circles\ in\ the\ array,\ and\ all\ circles\n\ in\ the\ array.\n\ \n\ Use\ a\ for\ loop\ to\ go\ over\ all\ circles\ in\ the\ array,\n\ but\ do\ not\ use\ any\ if\ statements\ inside\ the\ loop.\n\ \n\ @return\ a\ string\ in\ the\ format\n\ \ \ \ \ \ \ \ \ [Circle[],\ Circle[],\ .\ .\ .,\ Circle[]]\n\ \ \ \ \ \ \ \ \ where\ each\ Circle[]\ is\ the\ string\ from\ the\ toString()\ \n\ \ \ \ \ \ \ \ \ method\ on\ a\ circle\ in\ the\ array.\n
+numComments=6

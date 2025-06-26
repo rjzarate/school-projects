@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=EncodingUtilTester
+comment0.text=\n\ A\ Java\ application\ program\ for\ class\ ZipCodeEncoding.\n\ \n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Qi\ Yang\n\ @version\ 2022-12-12\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

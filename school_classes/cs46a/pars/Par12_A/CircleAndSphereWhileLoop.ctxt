@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CircleAndSphereWhileLoop
+comment0.text=\n\ The\ Java\ program\ uses\ a\ loop\ to\ read\ a\ double\ value\ in\n\ the\ range\ between\ 0\ and\ 500.0,\ exclusive,\ as\ the\ radius,\n\ then\ calculates\ and\ displays\ the\ circumference,\ area,\ \n\ sphere\ surface\ area\ and\ sphere\ volume.\n\ \n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-11-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

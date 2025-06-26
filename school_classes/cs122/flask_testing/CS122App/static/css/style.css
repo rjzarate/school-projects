@@ -1,0 +1,15 @@
+h1 {
+    border: 2px solid;
+    color: brown;
+    text-align: center;
+    padding: 10px;
+    background-color: #ADD8E6;
+}
+
+p {
+    color: #2F4F7F
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}

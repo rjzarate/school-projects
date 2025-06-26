@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FrogArray
+comment0.text=\n\ Manages\ a\ partial\ array\ of\ class\ Frog.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ SampleExamTwo\n
+comment1.params=array\ count
+comment1.target=FrogArray(Frog[],\ int)
+comment1.text=\n\ The\ constructor\ has\ two\ parameters\ for\ the\ two\n\ instance\ variables\:\n\ \ \ \ \ \ array\:\ an\ array\ of\ Frog\n\ \ \ \ \ \ count\:\ the\ number\ of\ frogs\ in\ array\n\ \n\ @param\ array\ \ the\ frog\ array\n\ @param\ count\ \ the\ length\ of\ the\ array\n
+comment2.params=frog
+comment2.target=void\ add(Frog)
+comment2.text=\n\ The\ method\ has\ one\ parameter\ of\ class\ Frog.\ If\ the\ \n\ array\ is\ not\ full,\ the\ method\ will\ add\ the\ frog\ at\ \n\ the\ end\ of\ the\ array\ and\ update\ the\ number\ of\ frogs\ \n\ in\ the\ array;\ otherwise,\ it\ will\ not\ do\ nothing.\n\n\ @param\ frog\ \ the\ added\ frog\n
+comment3.params=index
+comment3.target=Frog\ delete(int)
+comment3.text=\n\ The\ method\ has\ one\ parameter\ for\ the\ index\ of\ a\ frog\ to\n\ be\ deleted\ from\ the\ array.\ If\ the\ index\ is\ valid,\ the\n\ method\ will\ remove\ the\ frog\ from\ the\ array,\ shifting\ \n\ all\ subsequent\ elements\ to\ the\ left\ by\ one\ position,\ \n\ and\ return\ the\ frog.\ Otherwise,\ the\ method\ will\ not\n\ change\ the\ aray\ at\ all\ and\ return\ null.\n\ \n\ @param\ index\ \ the\ index\ of\ the\ frog\ that\ will\ be\ deleted\n\ \n\ @return\ the\ deleted\ frog\ or\ null\n
+comment4.params=low\ high
+comment4.target=Frog\ lastOutOfRange(int,\ int)
+comment4.text=\n\ The\ method\ has\ two\ int\ parameters\ for\ the\ low\ and\ high\n\ limits\ and\ will\ return\ the\ last\ frog\ in\ the\ array\ whose\n\ weight\ is\ not\ in\ the\ specified\ range\ (smaller\ than\ the\ \n\ low\ limit\ or\ larger\ than\ the\ high\ limit).\ The\ method\ \n\ will\ return\ null\ if\ no\ frog\ is\ out\ of\ the\ range.\n\ \n\ @param\ low\ \ the\ low\ limit\n\ @param\ high\ the\ high\ limit\n\ \n\ @return\ the\ frog\ out\ of\ limit\ or\ null\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ The\ method\ has\ no\ parameters\ and\ will\ return\ a\ string\ \n\ in\ the\ following\ format\:\n\ \ \ \ \ \ \ \ \ [Frog[...],\ Frog[...],\ ...,\ Frog[...]]\n\ where\ each\ Frog[...]\ is\ the\ string\ returned\ by\ method\n\ toString()\ on\ a\ frog\ in\ the\ array.\n\ \n\ Do\ not\ use\ an\ if\ statement\ inside\ the\ loop.\n\ @return\n
+numComments=6

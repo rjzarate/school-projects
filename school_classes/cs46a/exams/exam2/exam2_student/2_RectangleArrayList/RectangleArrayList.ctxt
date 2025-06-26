@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RectangleArrayList
+comment0.text=\n\ The\ class\ manages\ an\ array\ list\ of\ Rectangle\ objects.\n\ \n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ F2022ExamTwo\n
+comment1.params=theList
+comment1.target=RectangleArrayList(java.util.ArrayList)
+comment1.text=\n\ Initializes\ the\ array\ list\ to\ the\ parameter\ passed\ in.\n\ \n\ @param\ theList\ the\ array\ list\ of\ Rectangle\ to\ manage\n
+comment2.params=rectangle
+comment2.target=void\ add(Rectangle)
+comment2.text=\n\ Adds\ a\ Rectangle\ object\ at\ the\ end\ of\ the\ array\ list.\n\n\ @param\ rectangle\ the\ rectangle\ to\ be\ added\n
+comment3.params=index
+comment3.target=Rectangle\ delete(int)
+comment3.text=\n\ Deletes\ and\ returns\ the\ rectangle\ at\ the\ specified\ \n\ position\ if\ the\ index\ is\ valid.\ \n\ Otherwise,\ returns\ null\ without\ changing\ the\ array\ list.\n\n\ @param\ index\ the\ position\ of\ the\ rectangle\ to\ be\ deleted\n\ @return\ the\ rectangle\ at\ the\ specified\ position\ or\ null\n
+comment4.params=
+comment4.target=int\ countOfPerfectRectangles()
+comment4.text=\n\ Gets\ the\ count\ of\ perfect\ rectangles\ in\ this\ array\ list.\ \n\ A\ rectangle\ is\ perfect\ if\ the\ product\ of\ its\ x\ and\ y\ \n\ coordinates\ equals\ its\ area.\n\ \n\ You\ should\ use\ the\ enhanced\ for\ loop.\n\ \ \ \ \n\ @return\ the\ count\ of\ perfect\ rectangles\ in\ this\ array\ list\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ representation\ for\ this\ array\ list.\n\ \n\ @return\ the\ string\ returned\ by\ the\ toString()\ method\ \n\ \ \ \ \ \ \ \ \ of\ this\ array\ list.\n
+numComments=6

@@ -1,0 +1,1 @@
+**Allocated physical memory**

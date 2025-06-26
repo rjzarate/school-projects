@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Department
+comment0.text=\n\ The\ class\ manages\ an\ array\ of\ Student\ for\ a\ department.\n\ It\ provides\ some\ operations\ on\ the\ array.\ The\ actual\ \n\ number\ of\ students\ in\ the\ array\ needs\ to\ be\ maintained\ \n\ for\ the\ operations\ to\ perform\ their\ tasks.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ MyLastExam\n
+comment1.params=length
+comment1.target=Department(int)
+comment1.text=\n\ Initializes\ the\ managed\ array,\ studentArray,\ to\ an\ array\n\ of\ a\ specified\ length\ and\ numOfStudents\ to\ zero.\n\ \ \ \ \ \ \ \ \ \n\ @param\ length\ the\ length\ of\ the\ array\ to\ be\ managed\n
+comment2.params=student
+comment2.target=void\ add(Student)
+comment2.text=\n\ Adds\ a\ student\ at\ the\ end\ of\ the\ array\ if\n\ the\ array\ is\ not\ full,\ and\ does\ nothing\n\ otherwise.\n\n\ @param\ student\ the\ student\ to\ be\ added\n
+comment3.params=index
+comment3.target=Student\ remove(int)
+comment3.text=\n\ Deletes\ and\ returns\ the\ student\ at\ a\ specified\ \n\ index\ position\ and\ shfts\ all\ students\ after\ the\ \n\ deleted\ student\ (if\ any)\ to\ the\ left\ if\ the\ \n\ specified\ index\ is\ valid.\n\ The\ method\ does\ nothing\ otherwise.\n\ \n\ @param\ index\ the\ specified\ index\ position\n\ @return\ the\ deleted\ student\ if\ index\ is\ valid\n\ \ \ \ \ \ \ \ \ null\ otherwise\n
+comment4.params=
+comment4.target=Student\ lastNotInDeansList()
+comment4.text=\n\ Returns\ the\ last\ student\ in\ the\ array\ whose\n\ GPA\ is\ less\ than\ DEANS_LIST_GPA.\n\ \n\ The\ method\ should\ stop\ execution\ and\ return\ after\n\ a\ student\ is\ found\ satisfying\ the\ condition.\n\ \n\ @return\ the\ last\ student\ whose\ GPA\ is\ less\ than\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ DEANS_LIST_GPA\n\ \ \ \ \ \ \ \ \ null\ if\ no\ students\ with\ a\ GPA\ less\ than\n\ \ \ \ \ \ \ \ \ \ \ \ \ DEANS_LIST_GPA\n
+comment5.params=
+comment5.target=void\ sort()
+comment5.text=\n\ Calls\ a\ static\ method\ to\ sort\ the\ array.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Gets\ a\ string\ representation\ for\ the\ array\ in\ \n\ the\ following\ format\:\n\ \ \ \ [Student[Name\=Tom,GPA\=3.4],\ ...,\ Student[Name\=Joe,GPA\=3.9]]\n\ \n\ @return\ a\ string\ consisting\ all\ students\ in\ the\ array\n
+numComments=7

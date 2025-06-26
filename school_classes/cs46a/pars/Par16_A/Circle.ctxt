@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Circle
+comment0.text=\n\ The\ class\ models\ objects\ of\ circles.\ \n\ \n\ @author\ \ Qi\ Yang\n\ @version\ 2022-10-25\n
+comment1.params=xCoord\ yCoord\ theRadius
+comment1.target=Circle(int,\ int,\ double)
+comment1.text=\n\ Constructs\ a\ Circle\ object\ with\ the\ given\ (x,\ y)\ coordinates\ \n\ and\ the\ given\ radius\ and\ sets\ radius\ to\ one\ if\ radius\ is\ not\n\ positive.\n\ \n\ @param\ xCoord\ the\ x-coordinate\ of\ the\ center\ of\ this\ circle\n\ @param\ yCoord\ the\ y-coordinate\ of\ the\ center\ of\ this\ circle\n\ @param\ theRadius\ the\ radius\ of\ this\ circle\n
+comment2.params=
+comment2.target=int\ getX()
+comment2.text=\n\ Gets\ the\ x-coordinate\ of\ the\ center\ of\ this\ circle.\n\ \n\ @return\ the\ x-coordinate\ of\ the\ center\ of\ this\ circle\n
+comment3.params=
+comment3.target=int\ getY()
+comment3.text=\n\ Gets\ the\ y-coordinate\ of\ the\ center\ of\ this\ circle.\n\ \n\ @return\ the\ y-coordinate\ of\ the\ center\ of\ this\ circle\n
+comment4.params=
+comment4.target=double\ getRadius()
+comment4.text=\n\ Gets\ the\ radius\ of\ this\ circle.\n\ \n\ @return\ the\ radius\ of\ this\ circle\n
+comment5.params=newRadius
+comment5.target=void\ setRadius(double)
+comment5.text=\n\ Sets\ a\ new\ radius\ for\ this\ circle.\n\ \n\ @param\ newRadius\ the\ new\ radius\ of\ this\ circle\n
+comment6.params=
+comment6.target=double\ getArea()
+comment6.text=\n\ Gets\ the\ area\ of\ this\ circle.\n\ \n\ @return\ the\ area\ of\ this\ circle\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Builds\ a\ string\ to\ represent\ this\ circle.\n\ \n\ @return\ a\ string\ in\ the\ format\ "Circle[x\=3,y\=5,radius\=10.50]"\n
+numComments=8

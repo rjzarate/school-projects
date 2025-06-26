@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=UtilClass
+comment0.text=\n\ A\ utility\ class\ providing\ one\ static\ method\n\ for\ interface\ Qualifiable.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-22-2022\n
+comment1.params=list
+comment1.target=int\ numOfQualified(java.util.ArrayList)
+comment1.text=\n\ Gets\ the\ number\ of\ objects\ that\ are\ qualified.\n\ You\ must\ use\ the\ enhanced\ for\ loop.\n\ \n\ @param\ list\ an\ array\ list\ of\ Qualifiable\n\ @return\ the\ number\ of\ objects\ in\ the\ list\ that\ are\ qualified\n
+numComments=2

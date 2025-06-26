@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\n\ The\ class\ models\ students\ with\ a\ name\ and\ a\ gpa.\n\ \n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-22-2022\n
+comment1.params=nameParam\ gpaParam
+comment1.target=Student(java.lang.String,\ double)
+comment1.text=\n\ Constructs\ a\ Student\ object.\n\ \n\ @param\ nameParam\ the\ name\ of\ this\ student\n\ @param\ gpaParam\ the\ gpa\ of\ this\ student\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Gets\ the\ name\ of\ this\ student.\n\ \n\ @return\ the\ name\ of\ this\ student\n
+comment3.params=
+comment3.target=double\ getGpa()
+comment3.text=\n\ Gets\ the\ gpa\ of\ this\ student.\n\ \n\ @return\ the\ gpa\ of\ this\ student\n
+comment4.params=
+comment4.target=boolean\ qualifies()
+comment4.text=\n\ Determines\ if\ this\ student\ is\ qualifiable.\n\ A\ student\ qualifies\ if\ the\ gpa\ is\ at\ least\ \n\ LOW_LIMIT.\n\n\ @return\ true\ if\ this\ student\ is\ qualifiable\n\ \ \ \ \ \ \ \ \ false\ otherwise\n
+numComments=5

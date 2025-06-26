@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CircleListTester
+comment0.text=\n\ This\ is\ a\ tester\ program\ for\ class\ CircleList.\n\ It\ creates\ three\ CircleList\ objects\ to\ test\ \n\ each\ method\ of\ the\ class.\n\ \n\ @author\ \ Qi\ Yang\n\ @version\ 2022-10-25\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Frog
+comment0.text=\n\ The\ class\ models\ Frog\ objects\ with\ one\ int\ variable\ for\ weight.\n\ A\ frog\ has\ no\ legs\ if\ its\ weight\ is\ at\ most\ 5\ \n\ (MAX_WEIGHT_FOR_LIGHT_WEIGHT_FROG),\ 4\ legs\ if\n\ its\ weight\ is\ more\ than\ 20\ (MAX_WEIGHT_FOR_MED_WEIGHT_FROG),\ \n\ and\ 2\ legs\ otherwise.\n\ The\ minimum\ value\ for\ weight\ is\ 1\ (MIN_WEIGHT_FOR_FROG).\n\n\ @author\ \ Qi\ Yang\n\ @version\ 2022-10-20\n
+comment1.params=weightParam
+comment1.target=Frog(int)
+comment1.text=\n\ Creates\ a\ frog\ object\ with\ the\ given\ weight\ but\ sets\n\ the\ weight\ to\ MIN_WEIGHT_FOR_FROG\ if\ the\ parameter\ \n\ is\ less\ than\ MIN_WEIGHT_FOR_FROG.\n\ \n\ @param\ weightParam\ the\ weight\ of\ this\ Frog\ object\n
+comment2.params=
+comment2.target=int\ getWeight()
+comment2.text=\n\ Gets\ the\ weight\ of\ this\ Frog\ object.\n\ \n\ @return\ the\ weight\ of\ this\ Frog\ object\n
+comment3.params=
+comment3.target=int\ getLegs()
+comment3.text=\n\ Calculates\ and\ returns\ the\ number\ of\ legs\ \n\ of\ this\ Frog\ object.\n\ \n\ @return\ the\ number\ of\ legs\ of\ this\ Frog\ object\n
+comment4.params=amount
+comment4.target=void\ grow(int)
+comment4.text=\n\ Increases\ the\ weight\ of\ this\ frog\ by\ amount\ if\ amount\ \n\ is\ positive;\ do\ nothing\ otherwise.\n\n\ @param\ amount\ the\ amount\ to\ grow\ this\ Frog's\ weight\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ for\ this\ Frog\ object\ with\ its\ weight\ and\ legs.\n\ \n\ @return\ a\ string\ for\ this\ Frog\ object\ such\ as\n\ \ \ \ \ \ \ \ \ "Frog[Weight\:10,Legs\:2]"\n
+numComments=6

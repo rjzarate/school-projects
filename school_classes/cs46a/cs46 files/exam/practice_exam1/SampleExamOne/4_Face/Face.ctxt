@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Face
+comment0.text=\n\ Use\ the\ graphics\ package\ to\ draw\ a\ simple\ face\ of\n\ the\ specified\ size\ at\ a\ given\ location\ (x,\ y).\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ SampleExamOne\n
+comment1.params=xPos\ yPos
+comment1.target=Face(double,\ double)
+comment1.text=\n\ Constructs\ a\ Face\ object\ by\ initializing\ the\ two\n\ instance\ variables\n\ \n\ @param\ xPos\ the\ x-coordinate\ of\ the\ upper-left\ corner\ of\ this\ face\n\ @param\ yPos\ the\ y-coordinate\ of\ the\ upper-left\ corner\ of\ this\ face\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\n\ Draws\ this\ face.\ \n\ A\ Face\ oject\ has\ a\ big\ circle\ for\ the\ face,\ two\ small\ circles\ \n\ for\ the\ eyes,\ and\ one\ line\ for\ the\ mouth.\ \n\ The\ diameter\ of\ the\ face\ is\ FACE_SIZE,\ and\ the\ two\ instance\n\ variables\ specify\ the\ upper-left\ corner\ of\ the\ bounding\ square\n\ of\ the\ big\ circle.\n\ The\ diameter\ of\ the\ eyes\ is\ EYE_SIZE,\ the\ distance\ between\ the\ \n\ two\ eyes\ is\ EYES_DISTANCE,\ the\ distance\ above\ the\ eyes\ is\n\ EYE_FROM_TOP,\ and\ the\ two\ eyes\ together\ are\ horizontally\ \n\ centered\ on\ the\ face.\n\ The\ length\ of\ the\ mouth\ is\ MOUTH_SIZE,\ the\ distance\ above\ the\ \n\ mouth\ is\ MOUTH_FROM_TOP,\ and\ the\ mouth\ is\ centered\ on\ the\ face.\ \n
+numComments=3

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Stair
+comment0.text=\n\ The\ class\ models\ 3-step\ stairs\ with\ a\ color\ at\ any\ locations.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 09-13-2022\n
+comment1.params=xPos\ yPos
+comment1.target=Stair(double,\ double)
+comment1.text=\n\ Initializes\ the\ instance\ variables\ x\ and\ y\ and\ sets\n\ the\ color\ to\ Color.BLACK.\n\ \n\ @param\ \ xPos\ the\ x-coordinate\ of\ the\ upper-left\ corner\n\ @param\ \ yPos\ the\ y-coordinate\ of\ the\ upper-left\ corner\n
+comment2.params=xPos\ yPos\ theColor
+comment2.target=Stair(double,\ double,\ Color)
+comment2.text=\n\ Initializes\ the\ instance\ variables\ including\ (x,\ y)\ and\n\ the\ color\ to\ create\ an\ object\ of\ class\ Stair.\n\ \n\ \n\ @param\ \ xPos\ the\ x-coordinate\ of\ the\ upper-left\ corner\n\ @param\ \ yPos\ the\ y-coordinate\ of\ the\ upper-left\ corner\n\ @param\ \ theColor\ the\ color\ of\ the\ stair\n
+comment3.params=
+comment3.target=double\ getX()
+comment3.text=\n\ Gets\ the\ x\ coordinate\ of\ the\ upper-left\ corner\n\ of\ this\ stair.\n\n\ @return\ the\ x\ coordinate\ of\ the\ upper-left\ corner\n
+comment4.params=newColor
+comment4.target=void\ setColor(Color)
+comment4.text=\n\ Sets\ the\ stair\ color\ to\ newColor.\n\ \n\ @param\ \ newColor\ the\ new\ color\ of\ the\ stair\n
+comment5.params=
+comment5.target=void\ draw()
+comment5.text=\n\ Draws\ this\ stair\ at\ the\ specified\ location\ and\ fill\ it\n\ with\ the\ specified\ color.\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Gets\ a\ string\ representation\ for\ this\ stair\ in\ the\ \n\ following\ format\:\n\ \ \ \ \ \ \ \ \ "Stair[X\:20.0,Y\:10.0,Color\:255,0,0]"\n\ where\ "255,0,0"\ are\ the\ red,\ green\ and\ blue\n\ values\ of\ the\ color.\n\ \n
+numComments=7

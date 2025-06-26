@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=LifeInsurancePolicy
+comment0.text=\n\ Automates\ the\ calculation\ of\ yearly\ life\ insurance\ premiums\ for\ individuals\ based\ on\ their\ gender\ and\ age\ and\ whether\ they\ live\ in\ a\ high\ crime\ area.\n\n\ @author\ Froilan\ Zarate\n\ @version\ 10-15-2022\n
+comment1.params=theIndividual\ theHighCrime
+comment1.target=LifeInsurancePolicy(Person,\ boolean)
+comment1.text=\n\ Constructor\ for\ LifeInsurancePolicy\n\ \n\ @param\ theIndividual\ \ \ the\ person\n\ @param\ theHighCrime\ if\ they\ are\ in\ a\ high\ crime\ area\n
+comment2.params=
+comment2.target=int\ policyHolderAge()
+comment2.text=\n\ Gets\ the\ age\ of\ the\ insured\ person\n\n\ @return\ \ the\ age\ of\ the\ individual\n
+comment3.params=
+comment3.target=java.lang.String\ policyHolderGender()
+comment3.text=\n\ Gets\ the\ gender\ of\ the\ insured\ person\n\n\ @return\ \ the\ gender\ of\ the\ individual\n
+comment4.params=
+comment4.target=void\ incrementAge()
+comment4.text=\n\ Increments\ the\ age\ of\ the\ insured\ person\n
+comment5.params=
+comment5.target=double\ premium()
+comment5.text=\n\ Gets\ the\ yearly\ premium\ for\ the\ insured\ person\ or\ -1\ if\ the\ age\ is\ greater\ than\ or\ equal\ to\ 80.\n\n\ @return\ \ the\ yearly\ premium\n
+numComments=6

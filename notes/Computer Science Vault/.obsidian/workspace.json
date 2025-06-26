@@ -1,0 +1,234 @@
+{
+  "main": {
+    "id": "cc8f574345c0747e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3290da305ef21acb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "58de060043dfb7c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS 159/Final.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Final"
+            }
+          },
+          {
+            "id": "bf6419e9589e332c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS 159/Race Conditions/Producer-Consumer.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Producer-Consumer"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "33f85d3663d31aff",
+    "type": "split",
+    "children": [
+      {
+        "id": "0132997ac2308c9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f17b1d9f37c95fa3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "45764b284a28b55d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "??",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5c47b04bd24fd7d2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 216.5
+  },
+  "right": {
+    "id": "b37fae47cef42835",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b90cc40ee34a264",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5a7025938357ef2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS 122/Functions/Functions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Functions"
+            }
+          },
+          {
+            "id": "cd07a319196ac0c9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CS 122/Functions/Functions.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Functions"
+            }
+          },
+          {
+            "id": "6bed7175e107813b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "edd9034fa7afcea0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS 122/Functions/Functions.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Functions"
+            }
+          },
+          {
+            "id": "5128cd5ccdf6b726",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 259.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "58de060043dfb7c0",
+  "lastOpenFiles": [
+    "CS 159/Deadlocks/Prevention.md",
+    "CS 159/Deadlocks/Deadlock.md",
+    "CS 159/Deadlocks/Resource Graph.md",
+    "CS 159/Final.md",
+    "CS 159/Deadlocks/Conditions.md",
+    "CS 159/Deadlocks/Resource Trajectories.md",
+    "CS 159/Deadlocks/Resource.md",
+    "CS 159/Race Conditions/Semaphore.md",
+    "CS 159/Race Conditions/Race Conditions.md",
+    "CS 159/Race Conditions/Producer-Consumer.md",
+    "CS 159/Race Conditions/Critical Sections.md",
+    "CS 159/Race Conditions/Readers and Writers.md",
+    "CS 159/Cache.md",
+    "CS 159/Introduction and Understanding/Hardware Solution.md",
+    "CS 149/Process/Inter-Process/Pipes.md",
+    "CS 149/Process/Inter-Process/M Map.md",
+    "CS 149/Process/Address Allocation.md",
+    "CS 149/Process/Common API.md",
+    "CS 149/Process/Forking (Creating) a New Process.md",
+    "CS 149/Process/How a Program Runs.md",
+    "CS 149/Process/Process.md",
+    "CS 149/Process/Process Control Block (PC).md",
+    "CS 149/Process/Process Identifier (PID).md",
+    "CS 159/Pipelines.md",
+    "CS 159/Sequential Algorithm.md",
+    "CS 159/midterm questions.md",
+    "CS 159/Race Conditions",
+    "Screenshot 2025-03-17 at 6.56.23 PM.png",
+    "CS 159/Deadlocks",
+    "CS 149.zip",
+    "CS 159/Introduction and Understanding",
+    "CS 159",
+    "CS 116A/Fundamentals of Computer Graphics, Fourth Edition ( PDFDrive ).pdf",
+    "CS 122/Flask",
+    "CS 149/Paging",
+    "CS 149/Address Space",
+    "CS 149/MLFQ",
+    "Screenshot 2024-09-18 at 12.53.45 PM.png",
+    "Screenshot 2024-08-29 at 10.00.38 AM.png",
+    "Screenshot 2024-08-29 at 9.49.23 AM.png",
+    "Screenshot 2024-08-29 at 9.17.54 AM.png"
+  ]
+}

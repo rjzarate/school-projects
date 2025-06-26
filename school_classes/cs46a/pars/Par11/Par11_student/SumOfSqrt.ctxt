@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=SumOfSqrt
+comment0.text=\n\ The\ Java\ program\ asks\ for\ a\ positive\ integer\ from\ the\ \n\ user\ then\ calculates\ and\ displays\ the\ sum\ of\ square\ \n\ roots\ of\ all\ positive\ integers\ from\ 1\ to\ the\ input\n\ number,\ inclusive.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-04-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

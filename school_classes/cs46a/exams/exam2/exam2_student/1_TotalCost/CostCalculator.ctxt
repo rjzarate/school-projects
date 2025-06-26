@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CostCalculator
+comment0.text=\n\ A\ Java\ program\ to\ calculate\ the\ total\ cost\n\ for\ purchasing\ a\ vehicle\ from\ a\ dealer\ in\ \n\ San\ Jose,\ CA.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ F2022ExamTwo\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

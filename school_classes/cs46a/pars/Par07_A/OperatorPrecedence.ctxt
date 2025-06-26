@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=OperatorPrecedence
+comment0.text=\n\ Input\ three\ integers\ and\ perform\ some\ arithmetic\n\ operations.\n\n\ @author\ \ Qi\ Yang\n\ @version\ 2022-09-15\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

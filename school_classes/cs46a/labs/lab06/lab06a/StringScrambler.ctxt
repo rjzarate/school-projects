@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StringScrambler
+comment0.text=\n\ Scrambles\ a\ string.\n\n\ @author\ Froilan\ Zarate,\ Alan\ Xiao\n\ @version\ 09-30-2022\n
+comment1.params=thisWord
+comment1.target=StringScrambler(java.lang.String)
+comment1.text=\n\ The\ constructor\ of\ StringScrambler\n\ \n\ @param\ thisWord\ \ the\ word\n
+comment2.params=
+comment2.target=java.lang.String\ scrambleFirstLast()
+comment2.text=\n\ Swaps\ the\ first\ letter\ and\ the\ last\ letter\n\ \n\ @return\ \ null\ if\ the\ word\ is\ 1\ character,\ else\ return\ the\ edited\ string\n
+comment3.params=
+comment3.target=java.lang.String\ scrambleSecondThird()
+comment3.text=\n\ \n\ @return\ \ null\n
+comment4.params=index
+comment4.target=java.lang.String\ scrambleAdjacentTwo(int)
+comment4.text=\n\ \n\ @param\ index\ \ the\ index\n\ @return\ \ null\n
+comment5.params=index
+comment5.target=java.lang.String\ scrambleNotAdjacentTwo(int)
+comment5.text=\n\ \n\ @param\ index\ \ the\ index\n\ @return\ \ null\n
+numComments=6

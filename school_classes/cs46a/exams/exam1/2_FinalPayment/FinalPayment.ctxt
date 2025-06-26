@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FinalPayment
+comment0.text=\n\ A\ Java\ program\ to\ calculate\ the\ discount\ based\ on\n\ the\ amount\ of\ payment.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ MyExamOne\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StaticPractice
+comment0.text=\n\ Houses\ static\ methods.\n\n\ @author\ Froilan\ Zarate\n\ @version\ 11-22-2022\n
+comment1.params=
+comment1.target=StaticPractice()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ StaticPractice\n
+comment2.params=numbers\ size
+comment2.target=double\ averageOfPositive(int[],\ int)
+comment2.text=\n\ Gets\ the\ \n\ average\ value\ of\ all\ positive\ elements\ in\ the\ array.\ The\ array\ has\ size\ values,\ and,\ if\ the\ \n\ array\ has\ no\ positive\ elements,\ returns\ 0.\ \n\n\ @param\ \ numbers\ \ the\ integers\ in\ the\ array\n\ @param\ \ size\ \ \ \ \ the\ size\ of\ the\ array\n\ @return\ \ \ \ \ \ \ \ \ \ the\ average\ of\ positive\ numbers\n
+comment3.params=numbers
+comment3.target=double\ averageOfPositive(java.util.ArrayList)
+comment3.text=\n\ Gets\ the\ average\ value\ of\ all\ positive\ elements\ in\ the\ array\ list.\ If\ the\ array\ list\ has\ no\ \n\ positive\ elements,\ returns\ 0.\ You\ should\ use\ the\ enhanced\ for\ loop.\ \n\n\ @param\ \ numbers\ \ the\ integers\ in\ the\ array\n\ @return\ \ \ \ \ \ \ \ \ \ the\ average\ of\ positive\ numbers\n
+comment4.params=list\ size\ target
+comment4.target=int\ targetCount(java.lang.String[],\ int,\ java.lang.String)
+comment4.text=\n\ Gets\ the\ count\ of\ occurrences\ of\ target\ in\ the\ array.\ The\ array\ has\ size\ values.\ \n\n\ @param\ \ list\ \ \ the\ string\ array\n\ @param\ \ size\ \ \ the\ size\ of\ the\ array\n\ @param\ \ target\ the\ check\n\ @return\ \ \ \ \ \ \ \ \ \ the\ count\n
+comment5.params=list\ target
+comment5.target=int\ targetCount(java.util.ArrayList,\ java.lang.String)
+comment5.text=\n\ Gets\ the\ count\ of\ occurrences\ of\ target\ in\ the\ array\ list.\ You\ should\ use\ the\ enhanced\ for\ loop.\ \n\n\ @param\ \ list\ \ \ the\ string\ array\n\ @param\ \ target\ the\ check\n\ @return\ \ \ \ \ \ \ \ \ \ the\ count\n
+numComments=6

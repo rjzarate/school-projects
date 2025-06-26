@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DollPrinter
+comment0.text=\n\ Print\ the\ word\ doll\ in\ three\ different\ languages\:\n\ English\ (doll),\ Spanish\ (mu\u00F1eca),\ and\ French\ (poup\u00E9e).\ \n\n\ @author\ Froilan\ Zarate\n\ @version\ 2022-08-26\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

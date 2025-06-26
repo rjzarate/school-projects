@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="main.css">
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.getElementById("projectDropdown");
+            dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="Resume.html">Main</a>
+        <a href="Transcript.html">Transcript</a>
+        <button class="dropdown-btn" onclick="toggleDropdown()">Projects</button>
+        <div id="projectDropdown" class="dropdown">
+            <a href="prj1.html">Project 1</a>
+            <a href="prj2.html">Project 2</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>K4T</h1>
+        <p>K4T is a game project created in Unity. Below is the Itch.io link of the finished product.</p>
+        <iframe frameborder="0" src="https://itch.io/embed/2788238?bg_color=fbf3fa&amp;fg_color=222222&amp;link_color=e25bfa&amp;border_color=c9c5c9" width="208" height="167"><a href="https://froilan-zarate.itch.io/k4t">K4T by Froilan Zarate</a></iframe>
+    </div>
+</body>
+</html>

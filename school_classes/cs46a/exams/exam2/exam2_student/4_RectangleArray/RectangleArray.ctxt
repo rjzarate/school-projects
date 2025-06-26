@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=RectangleArray
+comment0.text=\n\ The\ class\ manages\ an\ array\ of\ Rectangle.\ Rectangles\ can\ be\ added\n\ into\ the\ array\ and\ the\ number\ of\ rectangles\ in\ the\ array\ must\ be\n\ kept\ correct\ at\ all\ times.\n\ \n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ F2022ExamTwo\n
+comment1.params=theArray\ count
+comment1.target=RectangleArray(Rectangle[],\ int)
+comment1.text=\n\ Initializes\ the\ instance\ variables\ with\ two\n\ parameters\:\ an\ array\ of\ Rectangle\ and\ a\ count\n\ of\ elements\ in\ the\ array.\n\ \n\ @param\ \ theArray\ the\ array\ itself\n\ @param\ \ count\ \ \ \ the\ size\ of\ the\ array\n
+comment2.params=index\ rectangle
+comment2.target=void\ add(int,\ Rectangle)
+comment2.text=\n\ Adds\ a\ rectangle\ to\ the\ specified\ index\ position\ in\ the\ \ \n\ array\ and\ shifts\ the\ element\ at\ the\ position\ and\ all\ \n\ subsequent\ elements\ to\ the\ right\ if\ the\ array\ is\ not\ \n\ full\ and\ the\ index\ is\ valid.\ It\ does\ nothing\ otherwise.\n\ \n\ @param\ index\ \ \ \ \ \ the\ index\n\ @param\ rectangle\ \ adds\ a\ rectangle\ if\ index\ is\ valid\n
+comment3.params=
+comment3.target=Rectangle\ lastExcellentRectangle()
+comment3.text=\n\ Finds\ and\ returns\ the\ LAST\ excellent\ rectangle\ in\ the\ array.\n\ It\ returns\ null\ if\ the\ array\ has\ no\ excellent\ rectangles.\n\ A\ rectangle\ is\ excellent\ if\ the\ following\ conditions\ are\ true\n\ \ \ \ \ \ \ \ \ \ y\ is\ not\ 0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ \n\ \ \ \ \ \ \ \ \ \ height\ is\ not\ 0\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ and\n\ \ \ \ \ \ \ \ \ \ the\ remainder\ of\ x\ divided\ by\ y\ equals\ \ \ \ \ \ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ remainder\ of\ width\ divided\ by\ height\n\ \ \ \ \n\ The\ method\ should\ stop\ execution\ and\ return\ the\ last\ \n\ perfect\ rectangle\ after\ it\ is\ found.\n\ \n\ @return\ \ the\ excellent\ rectangle\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Gets\ a\ String\ representation\ for\ the\ array\ in\ the\ following\ format\:\n\ \ \ \ [Rectangle[x\=1,y\=4,widht\=2,height\=0],\ Rectangle[x\=5,y\=2,widht\=11,height\=3]]\n\ Notie\ that\ class\ Rectangle\ provides\ a\ method\ toString()\ that\ returns\n\ a\ string\ for\ a\ rectangle\ in\ the\ format\ \n\ \ \ \ \ \ "Rectangle[x\=1,y\=2,widht\=3,height\=3]"\n\ \n\ @return\ a\ String\ representation\ for\ the\ array\ \n
+numComments=5

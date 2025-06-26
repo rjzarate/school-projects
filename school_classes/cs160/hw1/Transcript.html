@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Transcript</title>
+    <script>
+        function checkPassword() {
+            // Prompt
+            const password = prompt("Enter password:");
+
+            // Check for password, display <div id="content"> and hide <div id="passwordPrompt">
+            if (password === "frankbutt") {
+                document.getElementById("content").style.display = "block";
+                document.getElementById("passwordPrompt").style.display = "none";
+            } else {
+                document.getElementById("passwordPrompt").style.display = "block";
+                alert("Incorrect password.");
+            }
+        }
+        function toggleDropdown() {
+            var dropdown = document.getElementById("projectDropdown");
+            dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+        }
+    </script>
+    <style>
+        #passwordPrompt { display: none; }
+        #content { display: none; }
+    </style>
+</head>
+<body onload="checkPassword()">
+    <div class="sidebar">
+        <a href="Resume.html">Main</a>
+        <a href="Transcript.html">Transcript</a>
+        <button class="dropdown-btn" onclick="toggleDropdown()">Projects</button>
+        <div id="projectDropdown" class="dropdown">
+            <a href="prj1.html">Project 1</a>
+            <a href="prj2.html">Project 2</a>
+        </div>
+    </div>
+    <div id="passwordPrompt">
+        <p>Please enter the password to view the transcript.</p>
+        <a href="Transcript.html">Reinsert Password</a>
+    </div>
+    <div id="content">
+        <h2>Student Unofficial Transcript</h2>
+        <p>GPA: 3.806</p>
+        <table>
+            <tr>
+                <th>Course Name</th>
+                <th>Letter Grade</th>
+            </tr>
+            <tr><td>Intro Asn Am Studies</td><td>A</td></tr>
+            <tr><td>Intro to Progrmng</td><td>A</td></tr>
+            <tr><td>First Year Writing</td><td>B+</td></tr>
+            <tr><td>Discrete Math</td><td>B+</td></tr>
+            <tr><td>Sci, Physio, Nutr</td><td>A</td></tr>
+            <tr><td>Python for Everyone</td><td>A+</td></tr>
+            <tr><td>Intro to Data Strc</td><td>A+</td></tr>
+            <tr><td>Calculus II</td><td>A-</td></tr>
+            <tr><td>Logic & Crit Reas</td><td>A+</td></tr>
+            <tr><td>Writing Workshop</td><td>B+</td></tr>
+            <tr><td>Data Struct & Alg</td><td>A-</td></tr>
+            <tr><td>Comp Architecture</td><td>A</td></tr>
+            <tr><td>Object-Oriented Dsgn</td><td>A-</td></tr>
+            <tr><td>Calculus III</td><td>B+</td></tr>
+            <tr><td>Computers, Ethics, S</td><td>A-</td></tr>
+            <tr><td>Progrmng Paradigms</td><td>A</td></tr>
+            <tr><td>Formal Lang & Comput</td><td>A</td></tr>
+            <tr><td>Int to Dtb Mgt Sys</td><td>B-</td></tr>
+            <tr><td>Information Security</td><td>A-</td></tr>
+            <tr><td>Begin Volleyball</td><td>A</td></tr>
+            <tr><td>Begin Tae Kwon Do</td><td>A+</td></tr>
+            <tr><td>Linear Algebra I</td><td>A-</td></tr>
+            <tr><td>Intro Comp Graphic</td><td>A</td></tr>
+            <tr><td>Adv Python Prog</td><td>A+</td></tr>
+            <tr><td>Computer Game Dsgn</td><td>B+</td></tr>
+            <tr><td>Operating Systems</td><td>A-</td></tr>
+            <tr><td>Hunger & Environ Nut</td><td>A+</td></tr>
+        </table>
+    </div>
+</body>
+</html>

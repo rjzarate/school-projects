@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Hal9000
+comment0.text=\n\ A\ fictional\ character\ in\ Arthur\ C.\ Clarke's\ 2001\:\ A\ Space\ Odyssey.\ \n\n\ @author\ Froilan\ Zarate\n\ @version\ 09-13-2022\n
+comment1.params=theName
+comment1.target=Hal9000(java.lang.String)
+comment1.text=\n\ Constructs\ a\ new\ crewmate\ with\ the\ given\ name\n\ \n\ @param\ \ theName\ the\ name\ of\ the\ crewmate.\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Gets\ the\ name\ of\ this\ climber.\n\n\ @return\ the\ name\ of\ the\ crewmate\n
+comment3.params=newName
+comment3.target=void\ setName(java.lang.String)
+comment3.text=\n\ Sets\ a\ new\ name.\n\n\ @param\ \ newName\ the\ new\ name\ of\ the\ crewmate.\n
+comment4.params=
+comment4.target=java.lang.String\ greet()
+comment4.text=\n\ Returns\ a\ string\ "Greetings,\ Dave."\ if\ the\ crew\ name\ is\ Dave.\ \n\n\ @return\ a\ greeting\ to\ the\ crewmate.\n
+comment5.params=
+comment5.target=java.lang.String\ giveStatus()
+comment5.text=\n\ Returns\ a\ string\ "Everything\ is\ a\ go,\ Dave.\u201D\ if\ the\ crew\ name\ is\ Dave.\ \ \n\n\ @return\ a\ green\ light\ to\ the\ crewmate.\n
+comment6.params=whatToDo
+comment6.target=java.lang.String\ executeCommand(java.lang.String)
+comment6.text=\n\ Returns\ a\ string\ "I\ am\ sorry,\ Dave.\ I\ can't\ engage\ drive."\ if\ the\ crew\ name\ is\ Dave\ and\ the\ command\ (the\ parameter\ whatToDo)\ is\ \u201Cengage\ drive\u201D.\ \n\n\ @param\ \ whatToDo\ what\ the\ computer\ was\ executed\ to\ do.\n\ @return\ the\ computer\ could\ not\ execute\ the\ given\ command.\n
+numComments=7

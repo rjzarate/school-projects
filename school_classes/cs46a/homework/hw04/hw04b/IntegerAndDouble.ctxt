@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=IntegerAndDouble
+comment0.text=\n\ Displays\ int\ and\ double\ values\ from\ the\ given\ inputs.\n\n\ @author\ Froilan\ Zarate\n\ @version\ 09-22-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

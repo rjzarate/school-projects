@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Member
+comment0.text=\n\ The\ class\ models\ golf\ club\ members\ with\ a\ name\ and\ a\ balance.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ MyLastExam\n
+comment1.params=nameParam\ balanceParam
+comment1.target=Member(java.lang.String,\ double)
+comment1.text=\n\ Initializes\ the\ name\ and\ the\ balance\ to\ the\ parameters,\n\ but\ sets\ balance\ to\ MIN_INITIAL_BALANCE\ if\ the\ balance\ \n\ parameter\ is\ smaller\ than\ MIN_INITIAL_BALANCE.\n\ \n\ @param\ nameParam\ the\ name\ of\ this\ member\n\ @param\ balanceParam\ the\ balance\ of\ this\ member\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\n\ Gets\ a\ string\ representation\ for\ this\ member.\n\n\ @return\ a\ string\ in\ the\ following\ format\:\n\ \ \ \ \ \ \ \ \ \ \ Member[Name\=Joe\ Clifton,Balance\=150.0]\n
+comment3.params=
+comment3.target=double\ getBalance()
+comment3.text=\n\ Gets\ the\ balance\ of\ this\ member\n\ \n\ @return\ the\ balance\ of\ this\ member\n
+comment4.params=amount
+comment4.target=void\ updateBalance(double)
+comment4.text=\n\ Updates\ the\ balance\ of\ this\ member\ by\ adding\ amount\n\ to\ the\ balance.\n\ \n\ @param\ amount\ the\ amount\ to\ update\ the\ balance\n
+comment5.params=seed
+comment5.target=char\ randomChar(int)
+comment5.text=\n\ Creates\ a\ random\ generator\ with\ a\ given\ seed,\n\ then\ generate\ a\ random\ integer\ in\ the\ range\ of\ \n\ [0,\ length\ -\ 1],\ where\ length\ is\ the\ length\ of\ \n\ the\ name\ of\ this\ member,\ and\ returns\ the\ char\n\ in\ the\ name\ at\ that\ index\ position.\n\ For\ example,\ if\ the\ name\ is\ "Joe\ Clifton"\ and\n\ the\ random\ integer\ is\ 4,\ then\ the\ return\ char\n\ is\ 'C'.\n\n\ @param\ \ seed\ the\ seed\ used\ to\ create\ the\ random\ generator\n\ @return\ the\ character\ at\ the\ random\ index\ position\n
+numComments=6

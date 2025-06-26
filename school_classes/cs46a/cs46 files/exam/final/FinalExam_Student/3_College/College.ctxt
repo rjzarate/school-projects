@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=College
+comment0.text=\n\ The\ class\ manages\ an\ array\ list\ of\ class\ Student.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version.\n\ @author\ \ \n\ @version\ \n
+comment1.params=
+comment1.target=College()
+comment1.text=\n\ Initializes\ the\ instance\ variable\ to\ an\ empty\ \n\ ArrayList\ of\ class\ Student.\n
+comment2.params=student
+comment2.target=void\ add(Student)
+comment2.text=\n\ Adds\ an\ object\ of\ class\ Student\ to\ the\ end\ of\ the\ list.\n\n\ @param\ student\ the\ student\ to\ be\ added\n
+comment3.params=
+comment3.target=int\ countOfDeansList()
+comment3.text=\n\ Gets\ the\ number\ of\ students\ who\ should\ be\ on\ the\ Dean's\n\ list,\ i.e.,\ their\ gpa\ is\ at\ least\ DEANS_LIST_GPA.\n\ \n\ You\ should\ use\ the\ enhanced\ for\ loop.\n\n\ @return\ the\ number\ of\ students\ who\ should\ be\ on\ the\ \n\ \ \ \ \ \ \ \ \ Dean's\ list\n
+comment4.params=index1\ index2
+comment4.target=void\ swap(int,\ int)
+comment4.text=\n\ Swaps\ two\ students\ in\ the\ list\ if\ both\ index\ values\n\ are\ valid.\ The\ method\ does\ nothing\ otherwise.\n\ \n\ Do\ not\ use\ try-catch\ statement.\n\ Do\ not\ use\ more\ than\ one\ temporary\ variable.\n\ \n\ @param\ index1\ the\ index\ of\ the\ first\ student\n\ @param\ index2\ the\ index\ of\ the\ second\ student\n\ \n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ representation\ for\ the\ list.\n\ \n\ @return\ the\ string\ returned\ by\ method\ toString()\n\ \ \ \ \ \ \ \ \ on\ the\ list\n
+numComments=6

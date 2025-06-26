@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ArithmeticPrinter
+comment0.text=\n\ Print\ the\ sum\ and\ product\ of\ all\ integers\ between\n\ 13\ and\ 17,\ inclusive.\n\n\ @author\ Froilan\ Zarate\n\ @version\ 2020-08-26\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

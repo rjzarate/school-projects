@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Circle
+comment0.text=\n\ This\ class\ models\ circles.\n\ \n\ @author\ \ Qi\ Yang\ \n\ @version\ 2022-11-10\n
+comment1.params=theRadius
+comment1.target=Circle(double)
+comment1.text=\n\ Constructs\ a\ Circle\ object\ with\ the\ given\ radius.\n\ \n\ @param\ theRadius\ the\ radius\ of\ this\ circle\n
+comment2.params=
+comment2.target=double\ getRadius()
+comment2.text=\n\ Gets\ the\ radius\ of\ this\ circle.\n\ \n\ @return\ the\ radius\ of\ this\ circle\n
+comment3.params=newRadius
+comment3.target=void\ setRadius(double)
+comment3.text=\n\ Sets\ the\ radius\ of\ this\ circle.\n\ \n\ @param\ newRadius\ the\ new\ radius\ of\ this\ circle\n
+comment4.params=
+comment4.target=double\ area()
+comment4.text=\n\ Gets\ the\ area\ of\ this\ circle.\n\ \n\ @return\ the\ area\ of\ this\ circle\n
+numComments=5

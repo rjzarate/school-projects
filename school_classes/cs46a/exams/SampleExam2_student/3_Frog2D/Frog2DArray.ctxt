@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Frog2DArray
+comment0.text=\n\ A\ Java\ class\ to\ manage\ a\ 2-D\ array\ of\ Frog.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ SampleExamTwo\n
+comment1.params=array
+comment1.target=Frog2DArray(Frog[][])
+comment1.text=\n\ Initializes\ the\ instance\ variable\ to\ the\ passed\n\ in\ parameter.\n\ \n\ @param\ array\ a\ 2-D\ array\ of\ Frog\n
+comment2.params=rowIndex
+comment2.target=Frog\ rowMaxFrog(int)
+comment2.text=\n\ Gets\ a\ frog\ in\ the\ specified\ row\ that\ has\ the\ \n\ max\ weight\ among\ all\ frogs\ in\ the\ same\ row.\n\ \n\ You\ should\ use\ the\ enhanced\ for\ loop.\n\ \n\ @param\ \ rowIndex\ the\ index\ of\ the\ specified\ row\n\ @return\ a\ frog\ with\ the\ max\ weight\ in\ the\ specified\ row\n
+comment3.params=colIndex
+comment3.target=double\ colAverage(int)
+comment3.text=\n\ Gets\ the\ average\ weight\ of\ all\ frogs\ in\n\ the\ specified\ column.\n\ \n\ @param\ \ colIndex\ the\ index\ of\ the\ specified\ column\n\ @return\ the\ average\ weight\ of\ all\ frogs\ in\ the\ specified\ column\n
+comment4.params=legs
+comment4.target=int\ totalCount(int)
+comment4.text=\n\ Gets\ the\ total\ count\ of\ frogs\ in\ the\ 2-D\ array\n\ that\ have\ the\ specified\ number\ of\ legs.\n\ \n\ You\ should\ use\ nested\ enhanced\ for\ loops.\n\ \n\ @param\ \ legs\ the\ specified\ number\ of\ legs\n\ @return\ the\ count\ of\ frogs\ with\ the\ specified\ legs\n
+numComments=5

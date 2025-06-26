@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CircleManager
+comment0.text=\n\ The\ class\ manages\ an\ array\ list\ of\ Circle\ objects.\n\ \n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-27-2022\n
+comment1.params=
+comment1.target=CircleManager()
+comment1.text=\n\ Constructs\ an\ object\ of\ CircleList\ by\ initializing\ the\n\ instance\ variable\ to\ an\ empty\ array\ list\ of\ Circle.\n
+comment2.params=circle
+comment2.target=void\ add(Circle)
+comment2.text=\n\ Adds\ a\ Circle\ object\ at\ the\ beginning\ of\ the\ list.\n\ \n\ @param\ circle\ the\ circle\ to\ add\n
+comment3.params=
+comment3.target=Circle\ firstSmallestCircle()
+comment3.text=\n\ Gets\ the\ circle\ in\ the\ list\ with\ the\ smallest\ area.\n\ If\ multiple\ circles\ have\ the\ same\ smallest\ area,\n\ return\ the\ first\ one\ with\ the\ smallest\ area.\n\ If\ the\ list\ is\ empty,\ return\ null.\n\ \n\ You\ must\ use\ the\ enhanced\ for\ loop.\n\ \n\ @return\ the\ first\ circle\ with\ the\ smallest\ area\n\ \ \ \ \ \ \ \ \ null\ if\ the\ list\ is\ empty\n
+comment4.params=
+comment4.target=boolean\ hasCircleWithRadiusGreaterThan10()
+comment4.text=\n\ Returns\ true\ if\ the\ list\ has\ a\ circle\ with\ radius\ larger\n\ that\ TARGET_RADIUS\ (10.0),\ false\ otherwise.\n\ You\ should\ use\ the\ while\ loop\ and\ exit\ the\ loop\ right\ \n\ after\ such\ a\ circle\ is\ found.\n\ \n\ @return\ true\ if\ the\ list\ has\ a\ circle\ with\ radius\ >\ TARGET_RADIUS\n\ \ \ \ \ \ \ \ \ false\ otherwise\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ representation\ for\ this\ CircleManager\ object.\n\ \n\ @return\ a\ string\ including\ all\ circles\ in\ theList\ in\ the\ format\n\ \ \ \ \ \ \ \ \ "CircleManager"\ +\ CircleArrayList_toString\n\ \ \ \ \ \ \ \ \ where\ CircleArrayList_toString\ is\ the\ string\ returned\ from\ \ \n\ \ \ \ \ \ \ \ \ the\ toString()\ method\ of\ theList\n
+numComments=6

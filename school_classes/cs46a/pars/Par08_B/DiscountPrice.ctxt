@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DiscountPrice
+comment0.text=\n\ A\ Java\ application\ to\ input\ the\ name\ and\ price\ of\n\ a\ product,\ and\ a\ discount\ percentage,\ then\ compute\ \n\ and\ display\ the\ discount\ price.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 09-21-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

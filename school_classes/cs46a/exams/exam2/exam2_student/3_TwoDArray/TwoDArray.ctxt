@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TwoDArray
+comment0.text=\n\ The\ Java\ class\ stores\ a\ 2-D\ array\ of\ int\ and\ provides\n\ some\ operations\ to\ rectrieve\ information\ from\ it.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ F2022ExamTwo\n
+comment1.params=theArray
+comment1.target=TwoDArray(int[][])
+comment1.text=\n\ Constructs\ an\ object\ of\ class\ TwoDArray\ by\n\ initializing\ the\ instance\ variable\ to\ the\n\ parameter\ 2-D\ array.\n\ \n\ @param\ theArray\ the\ 2-D\ array\ of\ int\ to\ store\n
+comment2.params=rowIndex
+comment2.target=int\ rowMax(int)
+comment2.text=\n\ Gets\ the\ largest\ number\ in\ a\ specified\ row\n\ assuming\ the\ row\ index\ is\ valid.\ \n\ \n\ You\ should\ use\ the\ enhanced\ for\ loop.\n\ \n\ @param\ \ rowIndex\ the\ index\ of\ the\ specified\ row\n\ @return\ the\ largest\ number\ in\ the\ specified\ row\n
+comment3.params=colIndex
+comment3.target=double\ columnAverage(int)
+comment3.text=\n\ Calculates\ the\ double\ average\ of\ a\ specified\ column\n\ assuming\ the\ given\ column\ index\ is\ valid.\ \n\ \ \ \ \ \ \n\ @param\ colIndex\ the\ index\ of\ the\ specified\ column\ \n\ @return\ the\ double\ average\ of\ the\ specified\ column\n
+comment4.params=lowLimit\ highLimit
+comment4.target=int\ countInRange(int,\ int)
+comment4.text=\n\ Finds\ and\ returns\ the\ count\ of\ elements\ of\ the\ \n\ array\ that\ are\ within\ the\ specified\ range\ of\n\ [lowLimit,\ highLimit].\n\ \n\ You\ should\ use\ nested\ enhanced\ for\ loops.\n\ \n\ @param\ lowLimit\ the\ low\ limit\ of\ the\ range\n\ @param\ highLimit\ the\ high\ limit\ of\ the\ range\n\ @return\ the\ count\ of\ elements\ within\ the\ range\n
+numComments=5

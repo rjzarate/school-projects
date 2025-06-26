@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PictureViewer
+comment0.text=\n\ Load\ and\ draw\ a\ picture.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 2022-08-25\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

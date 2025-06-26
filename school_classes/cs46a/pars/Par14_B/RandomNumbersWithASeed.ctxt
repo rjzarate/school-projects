@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RandomNumbersWithASeed
+comment0.text=\n\ Create\ a\ Random\ object\ with\ a\ specified\ seed,\n\ ask\ the\ user\ for\ the\ count\ of\ random\ numbers,\n\ and\ generate\ the\ specified\ count\ of\ random\n\ numbers\ in\ a\ specified\ range.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-18-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

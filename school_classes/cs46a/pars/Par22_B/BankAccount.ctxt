@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=BankAccount
+comment0.text=\n\ Models\ BankAccount\ objects.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-22-2022\n
+comment1.params=initialBalance\ id
+comment1.target=BankAccount(double,\ java.lang.String)
+comment1.text=\n\ Constructs\ a\ bank\ account\ with\ a\ given\ balance\n\ and\ a\ string\ as\ the\ id.\n\ \n\ @param\ initialBalance\ the\ initial\ balance\n\ @param\ id\ the\ account\ id\n
+comment2.params=
+comment2.target=java.lang.String\ getAccountId()
+comment2.text=\n\ Gets\ the\ id\ for\ this\ account.\n\ \n\ @returns\ the\ id\ for\ this\ account\n
+comment3.params=amount
+comment3.target=void\ deposit(double)
+comment3.text=\n\ Deposits\ money\ into\ the\ bank\ account.\n\ \n\ @param\ amount\ the\ amount\ to\ deposit\n
+comment4.params=amount
+comment4.target=void\ withdraw(double)
+comment4.text=\n\ Withdraws\ money\ from\ the\ bank\ account.\n\ \n\ @param\ amount\ the\ amount\ to\ withdraw\n
+comment5.params=
+comment5.target=double\ getBalance()
+comment5.text=\n\ Gets\ the\ current\ balance\ of\ the\ bank\ account.\n\ \n\ @return\ the\ current\ balance\n
+comment6.params=
+comment6.target=boolean\ qualifies()
+comment6.text=\n\ Determines\ if\ this\ bank\ account\ is\ qualifiable.\n\ A\ bank\ account\ qualifies\ if\ the\ balance\ is\ in\n\ the\ range\ [LOW_LIMIT,\ HIGH_LIMIT].\n\n\ @return\ true\ if\ this\ bank\ account\ is\ qualifiable\n\ \ \ \ \ \ \ \ \ false\ otherwise\n
+numComments=7

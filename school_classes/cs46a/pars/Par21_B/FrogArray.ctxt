@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FrogArray
+comment0.text=\n\ Manages\ an\ array\ of\ class\ Frog.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-17-2022\n
+comment1.params=length
+comment1.target=FrogArray(int)
+comment1.text=\n\ Constructs\ an\ object\ of\ class\ FrogArray\n\ by\ creating\ an\ empty\ array\ of\ Frog\ of\ the\ \n\ specified\ length.\n\ \n\ @param\ length\ the\ length\ of\ the\ array\n
+comment2.params=array\ count
+comment2.target=FrogArray(Frog[],\ int)
+comment2.text=\n\ Constructs\ an\ object\ of\ class\ FrogArray\n\ by\ initializing\ the\ instance\ variables\n\ with\ the\ parameters.\n\ \n\ @param\ array\ an\ array\ of\ class\ Frog\n\ @param\ count\ the\ number\ of\ frogs\ in\ array\n
+comment3.params=frog
+comment3.target=void\ add(Frog)
+comment3.text=\n\ Adds\ a\ frog\ at\ the\ end\ of\ the\ array\ if\ the\ array\n\ is\ not\ full.\ Do\ nothing\ otherwise.\n\n\ @param\ frog\ the\ frog\ to\ add\n
+comment4.params=lowLimit\ highLimit
+comment4.target=Frog\ lastInRange(int,\ int)
+comment4.text=\n\ Finds\ the\ last\ frog\ in\ the\ array\ with\ a\ weight\ \n\ in\ the\ specified\ range.\n\ \n\ \n\ After\ the\ requested\ frog\ is\ found,\ you\ should\ \n\ stop\ execution\ and\ return\ it.\n\ \n\ @param\ lowLimit\ the\ low\ limit\ of\ the\ specified\ range\n\ @param\ highLimit\ the\ high\ limit\ of\ the\ specified\ range\n\ @return\ the\ last\ frog\ in\ the\ array\ whose\ weight\n\ \ \ \ \ \ \ \ \ \ \ \ \ is\ in\ the\ specified\ range\n\ \ \ \ \ \ \ \ \ null\ if\ no\ frog\ is\ in\ the\ specified\ range\n
+numComments=5

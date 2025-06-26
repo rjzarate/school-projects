@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Tree
+comment0.text=\n\ A\ tree\ with\ a\ type\ and\ height.\n\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-22-2022\n
+comment1.params=thisType\ thisHeight
+comment1.target=Tree(java.lang.String,\ double)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Tree\n\ \n\ @param\ thisType\ \ the\ type\ of\ tree\n\ @param\ thisHeight\ \ the\ height\ of\ the\ tree\n
+comment2.params=
+comment2.target=java.lang.String\ getType()
+comment2.text=\n\ Gets\ the\ type\ of\ the\ tree.\n\n\ @return\ \ \ \ the\ type\n
+comment3.params=
+comment3.target=double\ getHeight()
+comment3.text=\n\ Gets\ the\ height\ of\ the\ tree.\n\n\ @return\ \ \ \ the\ height\n
+comment4.params=theType
+comment4.target=void\ setType(java.lang.String)
+comment4.text=\n\ Sets\ the\ type\ of\ the\ tree.\n\n\ @param\ theType\ \ the\ new\ type\ of\ tree\n
+comment5.params=theHeight
+comment5.target=void\ setHeight(double)
+comment5.text=\n\ Sets\ the\ height\ of\ the\ tree.\n\n\ @param\ theHeight\ \ the\ new\ height\ of\ tree\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Turns\ the\ tree\ into\ a\ string.\n\n\ @return\ the\ tree\ in\ a\ string\n
+numComments=7

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FrogArrayProg
+comment0.text=\n\ Use\ a\ full\ array\ to\ store\ a\ number\ of\ frogs,\ swap\n\ the\ first\ and\ the\ last\ frogs,\ and\ use\ the\n\ enhanced\ for\ loop\ and\ method\ Arrays.toString()\n\ to\ print\ out\ all\ frogs\ before\ and\ after\ swapping.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-27-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

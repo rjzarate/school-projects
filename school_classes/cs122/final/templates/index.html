@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, 
+shrink-to-fit=no">
+    <title>Categories and Products</title>
+
+    <!-- Styling -->
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        <!-- Table header and table description -->
+        th {
+            bold: true;
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <p><a href="{{ url_for('add_category') }}">Add Category</a></p>
+    <p><a href="{{ url_for('add_product') }}">Add Product</a></p>
+    <h1>Categories</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Category ID</th>
+                <th>Category Name</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            {% for category in categories %}
+            <tr>
+                <td>{{ category['category_id'] }}</td>
+                <td>{{ category['category_name'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <h1>Products</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for product in products %}
+            <tr>
+                <td>{{ product['product_id'] }}</td>
+                <td>{{ product['product_name'] }}</td>
+                <td>{{ product['category_name'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+
+</html>

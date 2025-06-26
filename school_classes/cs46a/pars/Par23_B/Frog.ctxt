@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Frog
+comment0.text=\n\ The\ class\ models\ Frog\ objects\ with\ one\ int\ variable\ for\ weight.\n\ A\ frog\ has\ no\ legs\ if\ its\ weight\ is\ at\ most\ 5\ \n\ (MAX_WEIGHT_FOR_LIGHT_WEIGHT_FROG),\ 4\ legs\ if\n\ its\ weight\ is\ more\ than\ 20\ (MAX_WEIGHT_FOR_MED_WEIGHT_FROG),\ \n\ and\ 2\ legs\ otherwise.\n\ The\ minimum\ value\ for\ weight\ is\ 1\ (MIN_WEIGHT_FOR_FROG).\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-29-2022\n
+comment1.params=id\ weight
+comment1.target=Frog(java.lang.String,\ int)
+comment1.text=\n\ Creates\ a\ frog\ object\ with\ the\ given\ weight\ but\ sets\n\ the\ weight\ to\ MIN_WEIGHT_FOR_FROG\ if\ the\ parameter\ \n\ is\ less\ than\ MIN_WEIGHT_FOR_FROG.\n\ \n\ @param\ id\ the\ id\ of\ this\ frog\n\ @param\ weight\ the\ weight\ of\ this\ Frog\ object\n
+comment2.params=
+comment2.target=int\ getWeight()
+comment2.text=\n\ Gets\ the\ weight\ of\ this\ Frog\ object.\n\ \n\ @return\ the\ weight\ of\ this\ Frog\ object\n
+comment3.params=
+comment3.target=int\ getLegs()
+comment3.text=\n\ Calculates\ and\ returns\ the\ number\ of\ legs\ \n\ of\ this\ Frog\ object.\n\ \n\ @return\ the\ number\ of\ legs\ of\ this\ Frog\ object\n
+comment4.params=amount
+comment4.target=void\ grow(int)
+comment4.text=\n\ Increases\ the\ weight\ of\ this\ frog\ by\ amount\ if\ amount\ \n\ is\ positive;\ do\ nothing\ otherwise.\n\n\ @param\ amount\ the\ amount\ to\ grow\ this\ Frog's\ weight\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ for\ this\ Frog\ object\ with\ its\ weight\ and\ legs.\n\ \n\ @return\ a\ string\ for\ this\ Frog\ object\ such\ as\n\ \ \ \ \ \ \ \ \ "Frog[Weight\:10,Legs\:2]"\n
+comment6.params=obj
+comment6.target=int\ compareTo(java.lang.Object)
+comment6.text=\n\ Implements\ method\ compareTo()\ of\ interface\ Comparable.\n\ This\ frog\ comes\ first\ if\ it\ has\ a\ smaller\ weight,\ or\ \n\ its\ id\ comes\ first\ when\ the\ weight\ is\ the\ same.\n\ \n\ @param\ obj\ the\ other\ frog\ object\ to\ compare\ to\n\ @return\ a\ negative\ integer\ if\ this\ frog\ comes\ first\n\ \ \ \ \ \ \ \ \ a\ positive\ integer\ if\ this\ frog\ comes\ after\n\ \ \ \ \ \ \ \ \ zero\ otherwise\n
+numComments=7

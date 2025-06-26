@@ -1,0 +1,11 @@
+Efficiency
+- Both Java & Haskell can define types, but Haskell doesn't need to define types which can cause slower compile time than Java
+- Haskell doesn't have to define types, so it is more programmer efficient than Java
+Regularity
+- From using Haskell, I have seen that Haskell does not have that many special cases and instead throws compile errors instead while Java has special cases.
+- Additionally, I believe that you could return almost everything in Java just like in Haskell. The only thing I see differently is that Haskell can return multiple values while in Java, you can only return one object or value.
+- From what I have heard, some Java imports have inconsistent methods such as starting at 0 index while others start at 1 in the same method. One of them was Date, but I believe that was changed later.
+Security
+- Haskell does have the option to have pointers, and during class, you pointers can cause buffer attacks. Java does not use pointers.
+Extensibility
+- Both Java and Haskell does not support macros.

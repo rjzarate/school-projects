@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TwoDArrayDouble
+comment0.text=\n\ The\ class\ stores\ a\ 2-D\ array\ of\ double\ values\ and\ provides\n\ some\ methods\ to\ retrieve\ information\ from\ it.\n\ You\ can\ assume\ the\ stored\ 2-D\ array\ is\ not\ empty\ and\ not\ partial.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Frolan\ Zarate\n\ @version\ MyLastExam\n
+comment1.params=theArray
+comment1.target=TwoDArrayDouble(double[][])
+comment1.text=\n\ Constructs\ an\ object\ of\ TwoDArrayDouble\ by\ initializing\ the\n\ instance\ variable\ to\ the\ parameter.\n\ \n\ You\ can\ assume\ the\ parameter\ theArray\ is\ not\ empty\ and\ not\ \n\ partial.\n\ \n\ @param\ theArray\ a\ 2-D\ array\ of\ double\ values\n
+comment2.params=rowIndex
+comment2.target=double\ maxRowValue(int)
+comment2.text=\n\ Gets\ the\ max\ value\ of\ a\ specified\ row\ of\ the\n\ stored\ 2-D\ array.\n\ \n\ You\ should\ use\ the\ enhanced\ for\ loop.\n\ You\ can\ take\ the\ first\ element\ of\ the\ row\ as\ the\ \n\ initial\ value\ for\ the\ max\ value.\n\ \n\ @param\ rowIndex\ the\ index\ for\ the\ specified\ row\ \n\ \ \ \ \ \ \ \ You\ can\ assume\ the\ row\ index\ is\ valid\n\ @return\ the\ max\ value\ of\ the\ specified\ row\n
+comment3.params=colIndex\ target
+comment3.target=int\ columnCountOfTarget(int,\ double)
+comment3.text=\n\ Gets\ the\ count\ of\ elements\ in\ a\ specified\ column\ of\ the\n\ stored\ 2-D\ array\ that\ match\ a\ given\ target\ value.\n\ \n\ @param\ colIndex\ the\ index\ for\ the\ specified\ column\n\ \ \ \ \ \ \ \ You\ can\ assume\ the\ column\ index\ is\ valid\n\ @param\ target\ the\ given\ target\ value\n\ @return\ number\ of\ elements\ in\ the\ specified\ column\ \n\ \ \ \ \ \ \ \ \ that\ match\ the\ given\ target\n
+comment4.params=
+comment4.target=double\ averageOfAllValues()
+comment4.text=\n\ Gets\ the\ average\ of\ all\ values\ in\ the\ stored\ 2-D\ array.\n\ \n\ You\ should\ use\ nested\ enhanced\ for\ loops.\n\ DO\ NOT\ calculate\ the\ total\ count\ of\ elements\n\ within\ the\ nested\ loops.\n\ \n\ @return\ the\ average\ of\ all\ values\ in\ the\ 2-D\ array\n
+numComments=5

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DiscountPrice
+comment0.text=\n\ Ask\ the\ user\ for\ product\ name,\ its\ original\ price,\n\ and\ the\ discount\ rate,\ then\ calculate\ and\ display\n\ the\ discount\ price\ for\ the\ product.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ SampleExamOne\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

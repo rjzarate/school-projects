@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PictureViewer
+comment0.text=\n\ A\ Java\ program\ loads\ an\ image,\ increases\n\ its\ size,\ then\ displays\ it.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 09-29-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

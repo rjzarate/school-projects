@@ -1,0 +1,42 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "f72e286d4cf2fb9c45da07d7ac3159ce4ffa05ab947bba0566490cb944358c75"
+    }
+  ],
+  "containerPath" : "/Users/rjzarate/Documents/School Classes/cs134/of_v0.12.0_osx_release/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CLANG_CXX_LANGUAGE_STANDARD" : "c++17",
+          "GCC_PREPROCESSOR_DEFINITIONS" : "",
+          "MACOSX_DEPLOYMENT_TARGET" : "10.15",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.XcodeDefault"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      },
+      "toolchainOverride" : "com.apple.dt.toolchain.XcodeDefault"
+    }
+  },
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

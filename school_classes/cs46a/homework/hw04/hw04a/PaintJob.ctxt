@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PaintJob
+comment0.text=\n\ Model\ a\ paint\ job.\n\n\ @author\ Froilan\ Zarate\n\ @version\ 09-22-2022\n
+comment1.params=theLength\ theWidth
+comment1.target=PaintJob(double,\ double)
+comment1.text=\n\ The\ length\ and\ width\ of\ the\ room.\n\n\ @param\ theLength\ \ the\ length\ of\ the\ room.\n\ @param\ theWidth\ \ the\ width\ of\ the\ room.\n
+comment2.params=
+comment2.target=double\ getLength()
+comment2.text=\n\ Get\ the\ length\ of\ the\ room.\n\n\ @return\ the\ length\ of\ the\ room.\n
+comment3.params=
+comment3.target=double\ getWidth()
+comment3.text=\n\ Get\ the\ width\ of\ the\ room.\n\n\ @return\ the\ width\ of\ the\ room.\n
+comment4.params=newLength\ newWidth
+comment4.target=void\ setDimensions(double,\ double)
+comment4.text=\n\ The\ new\ length\ and\ width\ of\ the\ room.\n\n\ @param\ newLength\ \ the\ new\ length\ of\ the\ room.\n\ @param\ newWidth\ \ the\ new\ width\ of\ the\ room.\n
+comment5.params=
+comment5.target=double\ surfaceArea()
+comment5.text=\n\ Get\ the\ surface\ area\ of\ the\ room.\n\n\ @return\ the\ surface\ area\ of\ the\ room.\n
+comment6.params=
+comment6.target=double\ costOfPaint()
+comment6.text=\n\ Gets\ the\ cost\ of\ the\ paint\ job.\n\n\ @return\ the\ cost\ of\ the\ point\ job\ for\ the\ room.\n
+comment7.params=
+comment7.target=double\ totalJobCost()
+comment7.text=\n\ Gets\ the\ cost\ of\ the\ job.\n\n\ @return\ the\ cost\ of\ the\ job\ for\ the\ room.\n
+numComments=8

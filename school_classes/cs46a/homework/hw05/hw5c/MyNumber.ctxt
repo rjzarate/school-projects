@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MyNumber
+comment0.text=\n\ Represents\ a\ non-negative\ integer.\n\n\ @author\ Froilan\ Zarate\n\ @version\ 09-29-2022\n
+comment1.params=value
+comment1.target=MyNumber(int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyNumber\n\ \n\ @param\ value\ \ the\ number\ given\n
+comment2.params=
+comment2.target=int\ getNumber()
+comment2.text=\n\ Gets\ this\ number\n\ \n\ @return\ the\ number\n
+comment3.params=value
+comment3.target=void\ setNumber(int)
+comment3.text=\n\ Sets\ the\ stored\ number\ to\ a\ new\ value.\ If\ value\ is\ negative,\ multiply\ it\ by\ -1\ so\ that\ you\ do\ not\ have\ a\ negative\ number.\n\ \n\ @param\ value\ \ the\ new\ number\n
+comment4.params=
+comment4.target=int\ digitCount()
+comment4.text=\n\ Gets\ the\ number\ of\ digits\ in\ this\ number\n\ \n\ @return\ the\ number\ of\ digits\n
+comment5.params=
+comment5.target=java.lang.String\ formatWithComma()
+comment5.text=\n\ a\ string\ representing\ the\ number\ in\ the\ comma\ format,\ if\ the\ number\ is\ less\ than\ 1,000,000.\ If\ the\ number\ is\ greater\ than\ or\ equal\ to\ 1,000,000,\ return\ the\ string\ "too\ big".\n\ \n\ @return\ the\ number\ with\ commas\n
+numComments=6

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=UtilClass
+comment0.text=\n\ A\ utility\ class\ that\ provides\ some\ useful\ static\ methods.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-10-2022\n
+comment1.params=circle
+comment1.target=double\ area(Circle)
+comment1.text=\n\ Computes\ and\ returns\ the\ area\ of\ a\ circle.\n\n\ @param\ \ circle\ the\ circle\ whose\ area\ is\ to\ be\ calculated\n\ @return\ the\ area\ of\ the\ circle\n
+comment2.params=list
+comment2.target=int\ max(java.util.ArrayList)
+comment2.text=\n\ Computes\ and\ returns\ the\ maximum\ value\ of\ an\ array\ list\n\ of\ integers.\ \n\ \n\ You\ should\ use\ the\ enhanced\ for\ loop.\n\n\ @param\ \ list\ an\ array\ list\ of\ Integer\n\ @return\ the\ maximum\ value\ of\ the\ list\n\ \ \ \ \ \ \ \ \ Integer.MIN_VALUE\ if\ the\ list\ is\ empty\n
+comment3.params=words\ count
+comment3.target=java.lang.String\ lastLongest(java.lang.String[],\ int)
+comment3.text=\ \n\ Gets\ and\ returns\ the\ last\ longest\ word\ in\ an\ array\ of\ String.\n\ \n\ @param\ \ words\ an\ array\ of\ String\ \n\ @param\ \ count\ the\ number\ of\ strings\ in\ the\ array\n\ @return\ the\ last\ longest\ word\ in\ words\n\ \ \ \ \ \ \ \ \ the\ empty\ string\ if\ words\ is\ empty\n
+numComments=4

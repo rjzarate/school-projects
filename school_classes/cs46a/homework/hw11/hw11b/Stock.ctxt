@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Stock
+comment0.text=\n\ Models\ stock\ objects\ managed\ by\ a\ financial\ company.\n\ \n\ @author\ \ Froilan\ Zarate\n\ @version\ 12-01-2022\n
+comment1.params=theSymbol\ thePrice
+comment1.target=Stock(java.lang.String,\ double)
+comment1.text=\n\ Constructs\ a\ Stock\ object\ with\ the\ given\ symbol\ and\ price.\n\ \n\ @param\ theSymbol\ this\ stock's\ symbol\n\ @param\ thePrice\ this\ stock's\ price\n
+comment2.params=
+comment2.target=double\ getPrice()
+comment2.text=\n\ Gets\ the\ price\ of\ this\ stock.\n\ \n\ @return\ the\ current\ price\n
+comment3.params=
+comment3.target=java.lang.String\ getSymbol()
+comment3.text=\n\ Gets\ the\ symbol\ for\ this\ stock.\n\ \n\ @return\ the\ symbol\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\n\ Returns\ a\ string\ representing\ this\ stock.\n\ \n\ @return\ a\ string\ in\ the\ format\n\ \ \ \ \ \ \ \ \ Stock[symbol\=AAPL,price\=134.87]\n
+comment5.params=obj
+comment5.target=int\ compareTo(java.lang.Object)
+comment5.text=\n\ Compares\ the\ stock\ value\ depending\ on\ price.\n\ \n\ @param\ obj\ the\ other\ stock\ compared\n\ \n\ @return\ a\ positive\ or\ negative\ integer\ depending\ on\ the\ price.\ If\ 0,\ returns\ a\ positive\n\ or\ negative\ integer\ depending\ on\ the\ symbol.\n
+numComments=6

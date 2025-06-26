@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Fish
+comment0.text=\n\ The\ fish\ class.\n\n\ @author\ Froilan\ Zarate\n\ @version\ 11-22-2022\n
+comment1.params=
+comment1.target=Fish()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Fish\n
+comment2.params=
+comment2.target=void\ swim()
+comment2.text=\n\ Changes\ the\ fish\ state\ to\ one\ level\ hungrier\ if\ not\ in\ state\ VERY_HUNGRY.\ \n\n
+comment3.params=
+comment3.target=void\ eat()
+comment3.text=\n\ Changes\ the\ fish\ state\ to\ one\ level\ less\ hungry\ if\ not\ in\ state\ NOT_HUNGRY.\ \n\n
+comment4.params=
+comment4.target=int\ getState()
+comment4.text=\n\ Gets\ the\ integer\ representing\ the\ state,\ an\ integer\ 1\ through\ 4.\n\n\ @return\ the\ integer\ state\n
+comment5.params=
+comment5.target=java.lang.String\ getHungerLevel()
+comment5.text=\n\ Gets\ a\ string\ describing\ the\ current\ hunger\ \n\ state\ of\ the\ Fish\:\ "Not\ hungry",\ "Somewhat\ hungry\u201D,\ "Hungry",\ or\ "Very\ hungry".\ Do\ \n\ not\ use\ multiple\ independent\ if\ statements\ to\ determine\ what\ to\ return.\ \n\n\ @return\ the\ hunger\ level\ as\ a\ string\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Array2DFrog
+comment0.text=\n\ Store\ a\ 2-D\ array\ of\ class\ Frog\ and\ retrieve\ \n\ information\ from\ the\ 2-D\ array.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ SampleFinalExam\n
+comment1.params=array
+comment1.target=Array2DFrog(Frog[][])
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Array2DFrog.\n\ \n\ @param\ array\ a\ 2-D\ array\ of\ class\ Frog\ \n
+comment2.params=
+comment2.target=double\ averageWeight()
+comment2.text=\n\ Gets\ the\ average\ weight\ of\ all\ frogs\ in\ the\ 2-D\ array.\n\ We\ assume\ the\ 2-D\ array\ is\ not\ empty\ and\ not\ partial.\n\n\ You\ should\ use\ nested\ enhanced\ for\ loops.\n\ DO\ NOT\ calculate\ the\ count\ in\ the\ nested\ for\ loops.\n\ \n\ @return\ the\ average\ weight\ of\ all\ frogs\ in\ the\n\ \ \ \ \ \ \ \ \ 2-D\ array\n
+comment3.params=rowIndex\ low\ high
+comment3.target=Frog\ lastInTheRangeOfARow(int,\ double,\ double)
+comment3.text=\n\ Gets\ the\ last\ frog\ in\ the\ specified\ row\ whose\ weight\n\ is\ in\ the\ range\ of\ [low,\ high].\n\ We\ assume\ the\ 2-D\ array\ is\ not\ empty\ and\ not\ partial.\n\ We\ also\ assume\ the\ index\ is\ valid.\n\ \n\ You\ should\ stop\ execution\ and\ return\ the\ frog\ after\n\ finding\ the\ frog\ satisfying\ the\ condition.\n\ \n\ @param\ rowIndex\ the\ row\ index\ of\ the\ specified\ row\n\ @param\ low\ the\ low\ limit\ of\ the\ range\n\ @param\ high\ the\ high\ limit\ of\ the\ range\n\ @return\ the\ last\ frog\ in\ the\ specified\ row\ whose\ weight\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ is\ in\ the\ range\ of\ [low,\ high]\n\ \ \ \ \ \ \ \ \ null\ if\ no\ such\ frog\ in\ the\ specified\ row\n
+comment4.params=colIndex
+comment4.target=Frog\ maxOfACol(int)
+comment4.text=\n\ Gets\ the\ first\ frog\ with\ the\ max\ weight\ among\ all\ frogs\ \n\ in\ a\ specified\ column.\n\ We\ assume\ the\ 2-D\ array\ is\ not\ empty\ and\ not\ partial.\n\ We\ also\ assume\ the\ index\ is\ valid.\n\ \n\ @param\ colIndex\ the\ index\ of\ the\ specified\ column\n\ @return\ the\ first\ frog\ with\ the\ max\ weight\ among\ all\ frogs\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ in\ the\ specified\ column\n
+numComments=5

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Random2DArrayTester
+comment0.text=\n\ Input\ an\ odd\ integer\ as\ the\ seed\ to\ create\ a\ Random\ \n\ object\ and\ fill\ a\ 2-D\ array\ of\ integers\ with\ random\n\ values\ in\ a\ specified\ range,\ then\ compute\ the\ average\ \n\ value\ of\ all\ elements\ and\ the\ max\ value\ of\ a\ column.\n\n\ @author\ \ Qi\ Yang\n\ @version\ 2022-11-17\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

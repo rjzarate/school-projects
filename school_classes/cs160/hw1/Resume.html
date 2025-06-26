@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="main.css">
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.getElementById("projectDropdown");
+            dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="Resume.html">Main</a>
+        <a href="Transcript.html">Transcript</a>
+        <button class="dropdown-btn" onclick="toggleDropdown()">Projects</button>
+        <div id="projectDropdown" class="dropdown">
+            <a href="prj1.html">Project 1</a>
+            <a href="prj2.html">Project 2</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1 text-align="center">Froilan Zarate Jr</h1>
+        <img width="200" height="200" src="data/Image.jpeg" alt="Image of Froilan Zarate">
+        <p>Hello! My name is Froilan Zarate Jr, feel free to look around!</p>
+        <h2>Introduction Video</h1>
+        <video controls>
+            <source src="data/Introduction Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h2>Resume</h2>
+        <iframe src="data/Resume.pdf"></iframe>
+        <h2>My Location</h2>
+        <iframe class="map" src="https://www.google.com/maps?q=1+Washington+Sq,+San+Jose,+CA+95192&output=embed"></iframe>
+    </div>
+</body>
+</html>

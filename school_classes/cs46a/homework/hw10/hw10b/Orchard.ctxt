@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Orchard
+comment0.text=\n\ Write\ a\ description\ of\ class\ Orchard\ here.\n\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-22-2022\n
+comment1.params=
+comment1.target=Orchard()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Orchard\n
+comment2.params=tree\ index
+comment2.target=void\ add(Tree,\ int)
+comment2.text=\n\ Adds\ tree\ if\ the\ index\ is\ vaild\n\n\ @param\ \ tree\ \ the\ tree\n\ @param\ \ index\ the\ index\n
+comment3.params=
+comment3.target=Tree\ tallest()
+comment3.text=\n\ Finds\ the\ first\ tallest\ tree.\ Returns\ null\ if\ list\ is\ empty.\n\n\ @return\ \ the\ tallest\ tree.\n
+comment4.params=theType
+comment4.target=boolean\ contains(java.lang.String)
+comment4.text=\n\ Determines\ if\ the\ array\ list\ contains\ a\ tree\ object\ of\ a\ given\ type.\n\ \n\ @param\ theType\ the\ type\n\n\ @return\ \ true\ if\ tree\ type\ is\ found.\n
+comment5.params=
+comment5.target=java.lang.String\ treeList()
+comment5.text=\n\ Turns\ array\ into\ string\ and\ returns\ it.\n\n\ @return\ \ the\ list\n
+numComments=6

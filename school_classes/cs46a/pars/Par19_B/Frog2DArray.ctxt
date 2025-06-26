@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Frog2DArray
+comment0.text=\n\ Manages\ a\ 2-D\ array\ of\ Frog.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-03-2022\n
+comment1.params=array
+comment1.target=Frog2DArray(Frog[][])
+comment1.text=\n\ Constructs\ an\ object\ of\ class\ Frog2DArray\ by\ initializing\n\ the\ instance\ variable\ to\ the\ passed\ in\ parameter.\n\ \n\ @param\ array\ a\ 2-D\ array\ filled\ with\ frog\ objects\n
+comment2.params=rows\ cols\ seed\ maxWeight
+comment2.target=Frog2DArray(int,\ int,\ int,\ int)
+comment2.text=\n\ Constructs\ a\ new\ object\ of\ class\ Frog2DArray\ by\ creating\n\ a\ 2-D\ array\ of\ Frog\ of\ the\ specified\ rows\ and\ cols,\ then\n\ creating\ a\ Random\ object\ using\ the\ specified\ seed\ and\ \n\ filling\ the\ array\ with\ frogs\ of\ random\ weight\ in\ the\ range\n\ of\ [1,\ maxWeight]\ generated\ using\ the\ random\ generator.\n\ \n\ @param\ rows\ the\ number\ of\ rols\ of\ the\ 2-D\ array\n\ @param\ cols\ the\ columns\ of\ the\ 2-D\ array\n\ @param\ seed\ the\ seed\ of\ the\ random\ fenerator\n\ @param\ maxWeight\ the\ max\ weight\ of\ the\ frogs\ to\ generate\n
+comment3.params=
+comment3.target=double\ averageWeight()
+comment3.text=\n\ Gets\ the\ average\ weight\ of\ all\ frogs\ in\ the\ array.\n\ \n\ You\ should\ use\ nexted\ enhanced\ for\ loops\n\n\ @return\ the\ average\ weight\ of\ all\ frogs\ in\ the\ array\n
+comment4.params=lowLimit\ highLimit
+comment4.target=int\ countOfFrogsInRange(int,\ int)
+comment4.text=\n\ Gets\ the\ number\ of\ frogs\ in\ the\ array\ with\ a\ weight\ in\n\ the\ specified\ range.\n\ \n\ You\ should\ use\ nexted\ enhanced\ for\ loops\n\n\ @param\ lowLimit\ the\ low\ limit\ of\ the\ range\n\ @param\ highLimit\ the\ high\ limit\ of\ the\ range\n\ @return\ the\ number\ of\ frogs\ with\ a\ weight\ in\ the\ range\n
+comment5.params=rowIndex\ lowLimit\ highLimit
+comment5.target=Frog\ firstFrogInRangeInARow(int,\ int,\ int)
+comment5.text=\n\ Gets\ the\ first\ frog\ in\ the\ specified\ row\ with\ a\ weight\n\ in\ the\ specified\ range.\n\ \n\ You\ should\ use\ the\ enhanced\ for\ loop\n\n\ @param\ rowIndex\ the\ index\ of\ the\ specified\ row\n\ \ \ \ \ \ \ \ (Assuming\ the\ index\ is\ valid)\n\ @param\ lowLimit\ the\ low\ limit\ of\ the\ range\n\ @param\ highLimit\ the\ high\ limit\ of\ the\ range\n\ @return\ the\ first\ frog\ in\ the\ row\ with\ a\ weight\ in\ the\ range\n\ \ \ \ \ \ \ \ \ null\ if\ the\ row\ has\ no\ frogs\ with\ a\ weight\ in\ the\ range\n
+comment6.params=colIndex\ lowLimit\ highLimit
+comment6.target=Frog\ lastFrogInRangeInAColumn(int,\ int,\ int)
+comment6.text=\n\ Gets\ the\ last\ frog\ in\ the\ specified\ column\ with\ a\ weight\n\ in\ the\ specified\ range.\n\ \n\ @param\ colIndex\ the\ index\ of\ the\ specified\ column\n\ \ \ \ \ \ \ \ (Assuming\ the\ index\ is\ valid)\n\ @param\ lowLimit\ the\ low\ limit\ of\ the\ range\n\ @param\ highLimit\ the\ high\ limit\ of\ the\ range\n\ @return\ the\ last\ frog\ in\ the\ column\ with\ a\ weight\ in\ the\ range\n\ \ \ \ \ \ \ \ \ null\ if\ the\ column\ has\ no\ frogs\ with\ a\ weight\ in\ the\ range\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\n\ Gets\ a\ string\ representation\ for\ the\ 2-D\ array\ of\ frogs.\n\ \n\ @return\ a\ string\ for\ the\ 2-D\ array\ in\ the\ following\ format\:\n\ [Rows\:3,\ Cols\:2]\n\ [Frog[Weight\:2,Legs\:0],\ Frog[Weight\:6,Legs\:2]]\n\ [Frog[Weight\:7,Legs\:2],\ Frog[Weight\:26,Legs\:4]]\n\ [Frog[Weight\:21,Legs\:4],\ Frog[Weight\:16,Legs\:2]]\n
+numComments=8

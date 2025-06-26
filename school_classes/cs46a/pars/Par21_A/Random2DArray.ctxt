@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Random2DArray
+comment0.text=\n\ Store\ a\ 2-D\ array\ and\ provide\ methods\ to\n\ get\ the\ average\ values\ of\ any\ row,\ any\n\ column,\ or\ the\ entire\ array.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-17-2022\n
+comment1.params=array
+comment1.target=Random2DArray(int[][])
+comment1.text=\n\ Constructs\ an\ object\ of\ class\ Random2DArray\n\ by\ initializing\ the\ instance\ variable\ to\n\ the\ passed\ in\ parameter.\n\ \n\ @param\ array\ a\ 2-D\ array\ of\ int\n
+comment2.params=rows\ cols\ seed
+comment2.target=Random2DArray(int,\ int,\ int)
+comment2.text=\n\ Constructs\ an\ object\ of\ class\ Random2DArray.\n\ It\ creates\ a\ 2-D\ array\ of\ int\ with\ the\ \n\ specified\ rows\ and\ columns\ for\ the\ instance\n\ variable,\ then\ creates\ a\ Random\ object\ with\n\ the\ specified\ seed\ and\ use\ it\ to\ fill\ the\n\ entire\ array\ with\ random\ numbers\ in\ the\ \n\ range\ of\ [LOW_LIMIT,\ HIGH_LIMIT].\n\ \n\ @param\ rows\ number\ of\ rows\ of\ the\ 2-D\ array\n\ @param\ cols\ number\ of\ columns\ of\ the\ 2-D\ array\n\ @param\ seed\ the\ seed\ of\ the\ Random\ generator\n
+comment3.params=rowIndex
+comment3.target=double\ rowAverage(int)
+comment3.text=\n\ Gets\ the\ average\ value\ of\ the\ specified\ row.\n\ \n\ You\ should\ use\ the\ enhanced\ for\ loop.\n\n\ @param\ \ rowIndex\ the\ index\ of\ the\ specified\ row\n\ @return\ the\ double\ average\ of\ the\ specified\ row\n
+comment4.params=colIndex
+comment4.target=double\ colAverage(int)
+comment4.text=\n\ Gets\ the\ average\ value\ of\ the\ specified\ column.\n\n\ @param\ \ colIndex\ the\ index\ of\ the\ specified\ column\n\ @return\ the\ double\ average\ of\ the\ specified\ column\n
+comment5.params=
+comment5.target=double\ arrayAverage()
+comment5.text=\n\ Gets\ the\ average\ value\ of\ the\ entire\ array.\n\n\ @return\ the\ double\ average\ of\ the\ entire\ array\n
+numComments=6

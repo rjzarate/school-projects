@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=CircleManager
+comment0.text=\n\ The\ class\ manages\ a\ full\ array\ of\ circles\ and\ provides\n\ some\ methods\ to\ retrieve\ information\ from\ it.\ No\ adding\n\ to\ or\ removing\ from\ the\ array,\ and\ the\ array\ length\ is\ the\ \n\ number\ of\ circles\ in\ the\ array.\n\ \n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-01-2022\n
+comment1.params=circles
+comment1.target=CircleManager(Circle[])
+comment1.text=\n\ Constructs\ an\ object\ of\ CircleManager\ by\ initializing\n\ the\ instance\ variable\ to\ the\ parameter.\n\ \n\ @param\ circles\ the\ array\ of\ Circle\ to\ be\ managed\n
+comment2.params=
+comment2.target=int\ maxX()
+comment2.text=\n\ Gets\ the\ largest\ x\ value\ for\ all\ circles\ in\ the\ array.\n\ \n\ You\ must\ use\ the\ enhanced\ for\ loop.\n\ \n\ @return\ the\ largest\ x\ value\ for\ all\ circles\ in\ the\ array\n
+comment3.params=limit
+comment3.target=int\ countOfLargerThanLimit(double)
+comment3.text=\n\ Gets\ the\ number\ of\ circles\ in\ the\ array\ that\n\ have\ an\ area\ larger\ than\ the\ given\ limit.\n\ \n\ You\ must\ use\ the\ enhanced\ for\ loop.\n\ \n\ @param\ \ limit\ the\ specified\ limit\n\ @return\ the\ number\ of\ circles\ in\ the\ array\ with\ a\n\ \ \ \ \ \ \ \ \ area\ larger\ than\ the\ given\ limit.\n
+comment4.params=
+comment4.target=double\ averageArea()
+comment4.text=\n\ Gets\ the\ average\ area\ of\ all\ circles\ in\ the\ array.\n\ You\ can\ assume\ the\ length\ is\ the\ number\ of\ circles\ \n\ in\ the\ array\ and\ not\ zero.\n\ \n\ You\ must\ use\ the\ enhanced\ for\ loop.\n\ \n\ @return\ the\ average\ area\ of\ all\ circles\ in\ the\ array\ \n
+numComments=5

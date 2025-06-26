@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=DrawingATriangle
+comment0.text=\n\ The\ Java\ program\ tries\ to\ read\ a\ positive\ integer\n\ and\ stays\ in\ a\ loop\ if\ the\ input\ is\ invalid;\ then\n\ uses\ nested\ for\ loops\ to\ draw\ a\ triangle\ of\ the\ \n\ specified\ size.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-18-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

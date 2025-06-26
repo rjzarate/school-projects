@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment0.text=\n\ The\ class\ models\ objects\ of\ rectangles.\ \n\ \n\ @author\ \ Qi\ Yang\n\ @version\ 2022-11-11\n
+comment1.params=xPos\ yPos\ theWidth\ theHeight
+comment1.target=Rectangle(int,\ int,\ int,\ int)
+comment1.text=\n\ Creates\ a\ Rectangle\ object\ of\ the\ specified\ size\n\ \ \ \ \ \ \ \ \ at\ the\ specified\ location.\n\ \ \ \ \ \ \ \ \ \n\ @param\ xPos\ the\ x\ coordinate\ of\ this\ rectangle\n\ @param\ yPos\ the\ y\ coordinate\ of\ this\ rectangle\n\ @param\ theWidth\ the\ width\ of\ this\ rectangle\n\ @param\ theHeight\ the\ height\ of\ this\ rectangle\n
+comment2.params=
+comment2.target=int\ getX()
+comment2.text=\n\ Gets\ the\ x\ coordinate\ of\ the\ upper-left\ corner\ of\ this\ rectangle.\n\ \n\ @return\ the\ x\ coordinate\ of\ this\ rectangle\n
+comment3.params=
+comment3.target=int\ getY()
+comment3.text=\n\ Gets\ the\ y\ coordinate\ of\ the\ upper-left\ corner\ of\ this\ rectangle.\n\ \n\ @return\ the\ x\ coordinate\ of\ this\ rectangle\n
+comment4.params=
+comment4.target=int\ getWidth()
+comment4.text=\n\ Gets\ the\ width\ of\ this\ rectangle.\n\ \n\ @return\ the\ width\ of\ this\ rectangle\n
+comment5.params=
+comment5.target=int\ getHeight()
+comment5.text=\n\ Gets\ the\ height\ of\ this\ rectangle.\n\ \n\ @return\ the\ height\ of\ this\ rectangle\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Builds\ a\ string\ to\ represent\ this\ rectangle.\n\ \n\ @return\ a\ string\ in\ the\ format\ "Rectangle[x\=1,y\=2,widht\=3,height\=3]"\n
+comment7.params=
+comment7.target=int\ area()
+comment7.text=\n\ Gets\ the\ area\ of\ this\ rectangle.\n\ \n\ @return\ the\ area\ of\ this\ quare\n
+numComments=8

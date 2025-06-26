@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=RandomRectangles
+comment0.text=\n\ Prompt\ for\ a\ positive\ integer\ then\ draws\ that\ number\ of\ random\ rectangles.\n\n\ @author\ Froilan\ Zarate\ \n\ @version\ 10-29-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=IntArray
+comment0.text=\n\ An\ array\ of\ integers\n\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-01-2022\n
+comment1.params=theIntArray\ size
+comment1.target=IntArray(int[],\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ IntArray\n\ \n\ @param\ theIntArray\ \ the\ array\n\ @param\ size\ \ the\ size\n
+comment2.params=value
+comment2.target=void\ add(int)
+comment2.text=\n\ Adds\ value\ to\ the\ end\ of\ the\ array\ if\ the\ array\ is\ not\ full\ and\ does\ nothing\ otherwise\n\n\ @param\ \ value\ \ the\ integer\n
+comment3.params=index
+comment3.target=void\ remove(int)
+comment3.text=\n\ Removes\ the\ value\ at\ the\ specified\ index\ position\ from\ the\ array\ and\ shifts\ any\ subsequent\ elements\ to\ the\ left\ (subtracts\ one\ from\ their\ indices)\ if\ the\ index\ is\ valid.\ The\ method\ does\ nothing\ if\ the\ index\ is\ invalid.\n\n\ @param\ \ index\ \ the\ index\n
+comment4.params=low\ high
+comment4.target=int\ countOfOutRange(int,\ int)
+comment4.text=\n\ Gets\ the\ count\ of\ the\ array\ elements\ that\ are\ not\ in\ the\ specified\ range\ [low,\ high].\n\ \n\ @param\ \ low\ \ the\ lowest\ the\ integer\ can\ be\n\ @param\ \ high\ \ the\ highest\ the\ integer\ can\ be\n\ \n\ @return\ \ the\ count\ of\ integers\ thar\ are\ not\ within\ the\ low\ and\ high\ value\n
+comment5.params=
+comment5.target=int\ lastNegative()
+comment5.text=\n\ Returns\ the\ last\ negative\ value\ in\ the\ array\ and\ 0\ if\ no\ negative\ values\ in\ the\ array.\n\ \n\ \n\ @return\ \ the\ last\ negative\ value\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Returns\ a\ string\ listing\ all\ values\ in\ the\ array\ separated\ by\ a\ comma\ and\ a\ space\ and\ enclosed\ in\ a\ pair\ of\ "["\ and\ "]".\ For\ example,\ [3,\ 56,\ 23,\ -2].\n\ \n\ \n\ @return\ \ the\ last\ negative\ value\n
+numComments=7

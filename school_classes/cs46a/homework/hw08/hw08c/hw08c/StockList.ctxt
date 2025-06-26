@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StockList
+comment0.text=\n\ The\ array\ list\ for\ stocks\n\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-29-2022\n
+comment1.params=
+comment1.target=StockList()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ StockList\n
+comment2.params=s
+comment2.target=void\ add(Stock)
+comment2.text=\n\ Adds\ a\ stock\ to\ the\ end\ of\ the\ list.\n\n\ @param\ \ s\ \ the\ stock\n
+comment3.params=index1\ index2
+comment3.target=void\ swap(int,\ int)
+comment3.text=\n\ Swaps\ the\ element\ at\ index1\ with\ the\ element\ at\ index2.\ If\ either\ index\ is\ out\ of\ bounds,\ do\ not\ changing\ anything.\n\n\ @param\ \ index1\ \ first\ index\n\ @param\ \ index2\ \ second\ index\n
+comment4.params=
+comment4.target=java.lang.String\ cheapest()
+comment4.text=\n\ Gets\ the\ symbol\ for\ the\ Stock\ with\ the\ lowest\ price\ per\ share.\ If\ more\ than\ one\ Stock\ has\ the\ same\ price,\ return\ the\ symbol\ for\ the\ first.\ If\ the\ list\ is\ empty,\ return\ null.\n\n\ @return\ the\ cheapest\ stock\ or\ null\ if\ stock\ array\ list\ is\ empty\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ representation\ for\ the\ list\ including\ all\ \n\ stocks\ in\ the\ list\ by\ returning\ the\ string\ from\ the\ \n\ toString()\ method\ of\ the\ list.\n\ \n\ @return\ the\ list\ of\ stocks\n
+numComments=6

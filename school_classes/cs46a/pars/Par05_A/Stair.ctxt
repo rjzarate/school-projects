@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Stair
+comment0.text=\n\ The\ class\ models\ 3-step\ stairs\ at\ any\ locations.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 09-08-2022\n
+comment1.params=xPos\ yPos
+comment1.target=Stair(double,\ double)
+comment1.text=\n\ Initializes\ the\ instance\ variables\ to\ create\ an\ object\n\ of\ class\ Stair.\n\ \n\ @param\ \ xPos\ the\ x-coordinate\ of\ the\ upper-left\ corner\n\ @param\ \ yPos\ the\ y-coordinate\ of\ the\ upper-left\ corner\n
+comment2.params=
+comment2.target=double\ getX()
+comment2.text=\n\ Gets\ the\ x\ coordinate\ of\ the\ upper-left\ corner\n\ of\ this\ stair.\n\n\ @return\ the\ x\ coordinate\ of\ the\ upper-left\ corner\n
+comment3.params=
+comment3.target=void\ draw()
+comment3.text=\n\ Draws\ this\ stair\ at\ the\ specified\ location\ (x,\ y).\n
+numComments=4

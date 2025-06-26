@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ShootingTarget
+comment0.text=\n\ A\ class\ models\ shooting\ targets\ with\ five\ concentric\ \n\ rings\ in\ alternating\ black\ and\ white\ colors.\n\ \n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ MyExamOne\n
+comment1.params=xPos\ yPos
+comment1.target=ShootingTarget(int,\ int)
+comment1.text=\n\ Constructor\ of\ class\ ShootingTarget.\n\ \n\ @param\ xPos\ the\ x-coordinate\ of\ the\ center\n\ @param\ yPos\ the\ y-coordinate\ of\ the\ center\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\n\ Creates\ five\ circles\ at\ the\ same\ center\ with\ black\ and\ \n\ white\ colors\ to\ make\ the\ shooting\ target.\n\ Starting\ from\ the\ outside,\ \n\ \ \ \ the\ 1st\ circle\ is\ black\ with\ a\ radius\ of\ 50\n\ \ \ \ the\ 2nd\ circle\ is\ white\ with\ a\ radius\ of\ 40\n\ \ \ \ the\ 3rd\ circle\ is\ black\ with\ a\ radius\ of\ 30\n\ \ \ \ the\ 4th\ circle\ is\ while\ with\ a\ radius\ of\ 20\n\ \ \ \ the\ 5th\ circle\ is\ black\ with\ a\ radius\ of\ 10\n\ \n\ Remember\ the\ instance\ vatiable\ stores\ the\ center\ position,\ \n\ but\ you\ need\ the\ (x,\ y)\ coordinates\ for\ the\ top-left\ corner\ \n\ to\ draw\ the\ circles.\n
+numComments=3

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=StringProg
+comment0.text=\n\ A\ program\ to\ input,\ process,\ and\ output\ strings.\n\ \n\ Note\:\ Codecheck\ will\ use\ different\ input\ strings\ to\ test\n\ the\ program,\ and\ you\ must\ use\ the\ specified\ variables\ in\ \n\ your\ program.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 09-21-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

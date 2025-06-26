@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\n\ The\ class\ models\ students\ with\ a\ name\ and\ a\ gpa.\n\n\ @author\ \ Qi\ Yang\n\ @version\ 2022-12-12\n
+comment1.params=nameParam\ gpaParam
+comment1.target=Student(java.lang.String,\ double)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Student\n\ \n\ @param\ nameParam\ the\ name\ of\ this\ student\n\ @param\ gpaParam\ the\ gpa\ of\ this\ student\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Gets\ the\ name\ of\ this\ student\n\ \n\ @return\ the\ name\ of\ this\ student\n
+comment3.params=
+comment3.target=double\ getGpa()
+comment3.text=\n\ Gets\ the\ gpa\ of\ this\ student\n\ \n\ @return\ the\ gpa\ of\ this\ student\n
+comment4.params=newGpa
+comment4.target=void\ setGpa(double)
+comment4.text=\n\ Sets\ the\ gpa\ of\ this\ student\n\ \n\ @param\ newGpa\ the\ new\ gpa\ of\ this\ student\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ representing\ this\ student\n\n\ @return\ a\ string\ representing\ this\ student\n
+numComments=6

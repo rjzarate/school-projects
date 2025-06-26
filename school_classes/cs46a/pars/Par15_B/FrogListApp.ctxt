@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FrogListApp
+comment0.text=\n\ Input\ two\ integers,\ one\ as\ the\ number\ of\ frogs,\ another\n\ as\ the\ seed\ for\ a\ random\ generator,\ then\ create\ the\ \n\ specified\ number\ of\ frogs\ using\ the\ random\ generator\ \n\ to\ get\ the\ weights\ and\ store\ them\ in\ an\ array\ list.\n\ Finally,\ swap\ the\ first\ and\ the\ last\ frogs,\ and\ use\n\ the\ enhanced\ for\ loop\ to\ print\ out\ all\ frogs\ before\n\ and\ after\ swapping.\n\n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-20-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

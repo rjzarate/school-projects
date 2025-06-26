@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+/Users/rjzarate/Documents/cs151/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+63650260.index
+2497940812.index
+3127599216.index
+3289378489.index
+1479167148.index
+3332083163.index
+3499838631.index
+3726075042.index
+2716535544.index
+3675646073.index
+4148436513.index
+3781163742.index
+1045131507.index
+1890877350.index
+1337929755.index
+4052660256.index
+946256465.index
+1865797976.index
+2369222905.index

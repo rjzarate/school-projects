@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="main.css">
+    <script>
+        function toggleDropdown() {
+            var dropdown = document.getElementById("projectDropdown");
+            dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+        }
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="Resume.html">Main</a>
+        <a href="Transcript.html">Transcript</a>
+        <button class="dropdown-btn" onclick="toggleDropdown()">Projects</button>
+        <div id="projectDropdown" class="dropdown">
+            <a href="prj1.html">Project 1</a>
+            <a href="prj2.html">Project 2</a>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Catch Bobo</h1>
+        <p>Catch Bobo is a minigame project created in Minecraft. Below is the YouTube video and GitHub link.</p>
+        <iframe width="420" height="320"
+        src="https://www.youtube.com/embed/YKfC8Mfxz0k">
+        </iframe>
+        <br>
+        <a href="https://github.com/rjzarate/Catch-Bobo?tab=readme-ov-file">GitHub Link</a>
+    </div>
+</body>
+</html>

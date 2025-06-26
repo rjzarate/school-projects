@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=OddIndexChars
+comment0.text=\n\ Use\ a\ for\ loop\ to\ print\ all\ characters\ at\ odd\ index\n\ positions\ of\ a\ string,\ one\ per\ line.\ \n\ You\ should\ use\ str.length()\ as\ the\ length\ of\ the\ string,\ since\n\ Codecheck\ will\ use\ another\ string\ to\ test\ your\ program.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 10-04-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

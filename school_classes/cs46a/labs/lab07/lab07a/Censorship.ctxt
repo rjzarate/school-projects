@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Censorship
+comment0.text=\n\ The\ censored\ words\n\n\ @author\ Froilan\ Zarate\ &\ Alan\ Xiao\n\ @version\ 07-10-2022\n
+comment1.params=firstWord\ secondWord\ thirdWord
+comment1.target=Censorship(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\n\ The\ constructor\ for\ censorship\n\ \n\ @param\ firstWord\ \ the\ first\ censored\ word\n\ @param\ secondWord\ \ the\ second\ censored\ word\n\ @param\ third\ \ the\ third\ censored\ word\n
+comment2.params=str
+comment2.target=boolean\ containsBadWord(java.lang.String)
+comment2.text=\n\ Checks\ if\ the\ string\ contains\ a\ bad\ word\n\ \n\ @param\ str\ \ the\ string\n\ @return\ a\ true\ or\ false\ if\ there\ is\ a\ bad\ word\n
+comment3.params=str
+comment3.target=boolean\ isBadWord(java.lang.String)
+comment3.text=\n\ Checks\ if\ the\ string\ is\ a\ bad\ word\n\ \n\ @param\ str\ \ the\ string\n\ @return\ a\ true\ or\ false\ if\ the\ string\ is\ a\ bad\ word\n
+comment4.params=str
+comment4.target=java.lang.String\ censorBadWords(java.lang.String)
+comment4.text=\n\ Replaces\ the\ string\ with\ censored\ bad\ words\n\ \n\ @param\ str\ \ the\ string\n\ @return\ the\ censored\ string\n
+numComments=5

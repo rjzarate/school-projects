@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=StaticMethodApp
+comment0.text=\n\ A\ class\ to\ generate\ a\ random\ int\ array\ then\ call\ static\n\ methods\ to\ sort\ and\ display\ the\ array\ elements.\n\ \n\ Step\ 2\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 11-10-2022\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

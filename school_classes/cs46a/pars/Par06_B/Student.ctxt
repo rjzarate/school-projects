@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\n\ The\ class\ represents\ student\ objects\ with\ a\ name\ and\ a\ total\ score.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 09-13-2022\n
+comment1.params=theName
+comment1.target=Student(java.lang.String)
+comment1.text=\n\ Constructs\ a\ Student\ object\ by\ setting\ name\ to\ theName\ \n\ and\ totalScore\ to\ 0.\n\ \ \ \n\ @param\ \ theName\ the\ name\ of\ the\ student\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Gets\ the\ name\ of\ this\ student.\n\ \n\ @return\ the\ name\ of\ the\ student.\n
+comment3.params=
+comment3.target=int\ getTotalScore()
+comment3.text=\n\ Gets\ the\ total\ score\ for\ this\ student.\n\n\ @return\ the\ total\ score\ for\ the\ student.\n
+comment4.params=score
+comment4.target=void\ addScore(int)
+comment4.text=\n\ Adds\ score\ to\ total\ score\ for\ this\ student.\n\ \n\ @param\ \ score\ the\ score\ that\ will\ be\ added\ to\ the\ student's\ total\ score\n
+comment5.params=assignment
+comment5.target=java.lang.String\ startAssignment(java.lang.String)
+comment5.text=\n\ Gets\ a\ string\ indicating\ to\ start\ the\ given\ assignment\n\ today.\ For\ example,\ the\ return\ string\ will\ be\n\ \ \ \ \ \ "Yes,\ Frank\ will\ start\ Par06\ today\!";\n\ when\ the\ student\ name\ is\ "Frank"\ and\ the\ parameter\ is\ "Par06"\n\n\ @param\ \ assignment\ the\ assignment\ of\ the\ student\n
+numComments=6

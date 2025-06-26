@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Product
+comment0.text=\n\ The\ class\ models\ different\ products\ with\ a\ name\ and\ a\ price.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ today's\ date\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ 09-08-2022\n
+comment1.params=nameParam\ priceParam
+comment1.target=Product(java.lang.String,\ double)
+comment1.text=\n\ Creates\ a\ product\ object\ by\ initializing\ the\ name\ and\ price.\n\n\ @param\ nameParam\ the\ name\ of\ the\ product\ \n\ @param\ priceParam\ the\ price\ of\ the\ product\ \n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Gets\ the\ name\ of\ the\ product.\n\n\ @return\ the\ name\ of\ the\ product\ \n
+comment3.params=
+comment3.target=double\ getPrice()
+comment3.text=\n\ Gets\ the\ price\ of\ the\ product.\n\n\ @return\ the\ price\ of\ the\ product\ \n
+comment4.params=newPrice
+comment4.target=void\ setPrice(double)
+comment4.text=\n\ Sets\ a\ new\ price\ for\ this\ product.\n\n\ @param\ newPrice\ the\ new\ price\ for\ this\ product\ \n
+numComments=5

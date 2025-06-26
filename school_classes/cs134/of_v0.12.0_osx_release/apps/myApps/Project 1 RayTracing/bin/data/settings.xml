@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<group>
+	<Light_Intensity>5</Light_Intensity>
+	<Diffuse_Coefficient>1</Diffuse_Coefficient>
+	<Enable_Lambert>0</Enable_Lambert>
+	<Enable_Casting_Shadow>0</Enable_Casting_Shadow>
+</group>

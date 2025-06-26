@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Frog
+comment0.text=\n\ The\ class\ models\ Frog\ objects\ with\ one\ int\ variable\ for\ weight.\n\ A\ frog\ has\ no\ legs\ if\ its\ weight\ is\ at\ most\ 5,\ 4\ legs\ if\ its\n\ weight\ is\ more\ than\ 20,\ and\ 2\ legs\ otherwise.\n\ The\ minimum\ value\ for\ weight\ is\ 1.\n\n\ Step\ 1\:\ Enter\ your\ name\ for\ @author\ and\ the\ password\ for\ @version\n\ @author\ \ Froilan\ Zarate\n\ @version\ SampleExamOne\n
+comment1.params=theWeight
+comment1.target=Frog(int)
+comment1.text=\n\ The\ constructor\ has\ one\ parameter\ and\ creates\ a\ frog\ \n\ object\ by\ initializing\ the\ weight\ to\ the\ parameter,\ \n\ but\ sets\ the\ weight\ to\ MIN_FROG_WEIGHT\ if\ the\ \n\ parameter\ is\ less\ than\ MIN_FROG_WEIGHT.\n\ \n\ @param\ theWeight\ the\ weight\ of\ the\ frog\n
+comment2.params=
+comment2.target=int\ getWeight()
+comment2.text=\n\ Gets\ the\ weight\ of\ this\ Frog\ object.\n\ \n\ @return\ the\ weight\ of\ the\ frog\n
+comment3.params=
+comment3.target=int\ getLegs()
+comment3.text=\n\ Calculates\ and\ returns\ the\ number\ of\ legs\ of\ this\ Frog\ object.\ \n\ The\ number\ of\ legs\ is\ determined\ as\ below\:\n\ \ \ \ \ \ \ number\ of\ legs\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ weight\ \ \ \ \ \ \ \ \ \ \n\ \ \ \ 0\ (LIGHT_FROG_LEGS)\ \ \ \ \ \ at\ most\ 5\ (LIGHT_FROG_MAX_WEIGHT)\n\ \ \ \ 4\ (HEAVY_FROG_LEGS)\ \ \ \ \ \ more\ than\ 20\ (MED_FROG_MAX_WEIGHT)\n\ \ \ \ 2\ (MED_FROG_LEGS)\ \ \ \ \ \ \ \ \ \ \ \ \ otherwise\n\ \n\ @return\ the\ number\ of\ legs\ the\ frog\ has\ depending\ on\ the\ weight\n
+comment4.params=multiplier
+comment4.target=void\ grow(int)
+comment4.text=\n\ Increases\ the\ weight\ of\ this\ frog\ by\ the\ amount\ \n\ of\ the\ parameter\ if\ the\ parameter\ is\ positive.\n\ The\ method\ does\ nothing\ otherwise.\n\ \n\ @param\ multiplier\ \ multiplies\ the\ weight\ of\ the\ frog\n\ @return\ the\ new\ weight\ of\ the\ frog\ if\ the\ multiplier\ is\ positive\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\n\ Gets\ a\ string\ for\ this\ Frog\ object\ in\ the\ following\ format\:\n\ \ \ \ \ \ "Frog[Weight\:10,Legs\:2]"\n\ \n\ @param\ frogDetails\ \ the\ weight\ and\ legs\ of\ the\ frog\n\ @return\ the\ weight\ and\ legs\ of\ the\ frog\n
+numComments=6

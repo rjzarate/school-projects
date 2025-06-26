@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CircleManagerTester
+comment0.text=\n\ This\ is\ a\ tester\ program\ for\ class\ CircleManager.\n\ It\ creates\ two\ CircleManager\ objects\ to\ test\ \n\ each\ method\ of\ class\ CircleManager.\n\ \n\ @author\ \ Qi\ Yang\n\ @version\ 2022-11-01\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

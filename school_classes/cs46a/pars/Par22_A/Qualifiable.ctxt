@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Qualifiable
+comment0.text=\n\ An\ interface\ with\ one\ method\ that\ returns\n\ a\ boolean\ value.\n\ \n\ @author\ \ Qi\ Yang\n\ @version\ 2022-11-22\n
+comment1.params=
+comment1.target=boolean\ qualifies()
+comment1.text=\n\ Determines\ if\ an\ instance\ qualifies\ the\ condition\n\ specified\ by\ the\ class\ implementing\ the\ interface.\n\ \n\ @return\ true\ if\ the\ instance\ qualifies\n\ \ \ \ \ \ \ \ \ false\ otherwise\n
+numComments=2

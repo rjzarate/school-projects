@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Shape
+comment0.text=\n\ \ \ \ A\ shape\ that\ can\ be\ drawn\ on\ a\ canvas.\n
+comment1.params=
+comment1.target=int\ getX()
+comment1.text=\n\ \ \ \ \ \ \ \ Gets\ the\ leftmost\ x-position\ of\ the\ shape.\n\ \ \ \ \ \ \ \ @return\ the\ leftmost\ x-position\n
+comment2.params=
+comment2.target=int\ getY()
+comment2.text=\n\ \ \ \ \ \ \ \ Gets\ the\ topmost\ y-position\ of\ the\ shape.\n\ \ \ \ \ \ \ \ @return\ the\ topmost\ y-position\n
+comment3.params=
+comment3.target=int\ getWidth()
+comment3.text=\n\ \ \ \ \ \ \ \ Gets\ the\ width\ of\ the\ shape.\n\ \ \ \ \ \ \ \ @return\ the\ width\n
+comment4.params=
+comment4.target=int\ getHeight()
+comment4.text=\n\ \ \ \ \ \ \ \ Gets\ the\ height\ of\ the\ shape.\n\ \ \ \ \ \ \ \ @return\ the\ height\n
+comment5.params=g2
+comment5.target=void\ paintShape(java.awt.Graphics2D)
+comment5.text=\n\ \ \ \ \ \ \ \ Paints\ the\ shape.\ For\ use\ by\ the\ Canvas\ class\ only.\n\ \ \ \ \ \ \ \ @param\ g2\ the\ graphics\ object\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ \ \ \ \ \ \ \ Yields\ a\ description\ of\ this\ shape.\n\ \ \ \ \ \ \ \ @return\ a\ string\ describing\ this\ shape.\n
+numComments=7
